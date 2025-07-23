@@ -63,12 +63,12 @@ Projeyi derlemek için terminalde, proje kök dizinine (`pom.xml` dosyasının o
 mvn clean package
 ```
 Bu komut şunları yapar:
-->Eski derlemeyi temizler (target klasörünü siler).
-->Tüm .java dosyalarını derler ve Maven bağımlılıklarını indirir.
-->Tomcat’te çalışacak WAR dosyasını üretir:
+->Eski derlemeyi temizler (target klasörünü siler).  
+->Tüm .java dosyalarını derler ve Maven bağımlılıklarını indirir.  
+->Tomcat’te çalışacak WAR dosyasını üretir.    
 
 ### 2. Tomcat’e Deploy (Yükleme)
-->Oluşan WAR dosyasını Tomcat/webapps klasörüne kopyalayın.
+->Oluşan WAR dosyasını Tomcat/webapps klasörüne kopyalayın.  
 ->Tomcat’i başlatın:
 ```
 startup.bat
