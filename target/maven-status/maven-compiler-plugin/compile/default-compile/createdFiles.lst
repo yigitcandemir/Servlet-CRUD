@@ -1,0 +1,3 @@
+com\benim\model\Kurum.class
+com\benim\servlet\KurumServlet.class
+com\benim\dao\KurumDAO.class
