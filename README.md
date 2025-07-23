@@ -19,7 +19,7 @@ Bu proje, **Java Servlet**, **JSP** ve **MySQL** kullanılarak geliştirilmiş b
 
 - **Java 17+**  
 - **Jakarta Servlet & JSP (Jakarta EE 10)**  
-- **MySQL 8.x**  
+- **MySQL 8.0**  
 - **Maven**  
 - **Tomcat 10+**  
 - **JSTL (JSP Tag Library)**
