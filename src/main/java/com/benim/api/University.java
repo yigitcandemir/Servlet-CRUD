@@ -1,7 +1,7 @@
 package com.benim.api;
 
 
-
+//Apiden gelen verileri görmek için
 public class University {
     private String name;
     private String[] web_pages;

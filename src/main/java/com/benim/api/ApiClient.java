@@ -36,14 +36,10 @@ public class ApiClient{
 
             Gson gson = new Gson();
             universities = gson.fromJson(response.toString(), new TypeToken<List<University>>() {}.getType());
-
             
-
         } catch (Exception e) {
             e.printStackTrace();
         }
         return universities;
-
-
     }
 }

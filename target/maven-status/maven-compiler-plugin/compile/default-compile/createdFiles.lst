@@ -1,6 +1,11 @@
+com\benim\servlet\CreateUniversityServlet.class
 com\benim\model\Kurum.class
 com\benim\servlet\KurumServlet.class
+com\benim\dao\AdminDAO.class
+com\benim\servlet\LoginServlet.class
 com\benim\api\University.class
+com\benim\dao\UniversityDAO.class
+com\benim\model\University.class
 com\benim\servlet\UniversityServlet.class
 com\benim\dao\KurumDAO.class
 com\benim\api\ApiClient$1.class
