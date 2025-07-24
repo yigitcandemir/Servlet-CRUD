@@ -16,6 +16,7 @@ public class KurumDAO {
     private String jdbcPassword = "12345";
 
     private static final String SELECT_ALL = "SELECT * FROM kurumlar";
+    private static final String SELECT_BY_NAME = "SELECT * FROM kurumlar WHERE name LIKE ?";
 
     protected Connection getConnection() throws SQLException {
         try {
@@ -42,4 +43,23 @@ public class KurumDAO {
         }
         return liste;
     }
+
+    public List<Kurum> selectByName(String name) throws SQLException {
+        List<Kurum> kurumlar = new ArrayList<>();
+        try( Connection conn = getConnection(); PreparedStatement ps = conn.prepareStatement(SELECT_BY_NAME)){
+            ps.setString(1, "%" + name + "%");
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()){
+                kurumlar.add(new Kurum(
+                    rs.getInt("id"),
+                    rs.getString("name"),
+                    rs.getString("type"),
+                    rs.getString("city"),
+                    rs.getString("website")));
+            }
+        }
+        return kurumlar;
+    }
+
+
 }
