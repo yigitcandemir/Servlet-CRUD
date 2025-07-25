@@ -52,6 +52,11 @@
     <input type="hidden" name="website" value="<%=u.getWebsite()%>">
     <button type="submit">Güncelle</button>
 </form>
+<form action="DeleteUniversity" method="get" style="display:inline;"
+        onsubmit="return confirm('Bu üniversiteyi silmek istediğinize emin misiniz?');">
+        <input type="hidden" name="id" value="<%=u.getId()%>">
+        <button type="submit">Sil</button>
+</form>
 </td>
 <% } %>
 </tr>

@@ -19,6 +19,7 @@ public class UniversityDAO {
     private static final String INSERT_SQL = "INSERT INTO universiteler(name, website) VALUES (?, ?)";
     private static final String UPDATE_SQL = "UPDATE universiteler SET name = ?, website = ? WHERE id = ?";
     private static final String SEARCH_BY_NAME = "SELECT id, name, website FROM universiteler WHERE name LIKE ?";
+    private static final String DELETE_SQL = "DELETE FROM universiteler WHERE id = ?";
 
     protected Connection getConnection() throws SQLException{
         try {
@@ -63,7 +64,7 @@ public class UniversityDAO {
         return list;
     }
 
-    public void insert(University uni){
+    public void insert(University uni) throws SQLException{
         try(Connection conn = getConnection(); PreparedStatement ps = conn.prepareStatement(INSERT_SQL)){
             ps.setString(1, uni.getName());
             ps.setString(2, uni.getWebsite());
@@ -79,6 +80,13 @@ public class UniversityDAO {
             ps.setString(1, uni.getName());
             ps.setString(2, uni.getWebsite());
             ps.setInt(3, uni.getId());
+            ps.executeUpdate();
+        }
+    }
+
+    public void delete(int id) throws SQLException{
+        try(Connection conn = getConnection(); PreparedStatement ps = conn.prepareStatement(DELETE_SQL)){
+            ps.setInt(1,id);
             ps.executeUpdate();
         }
     }
