@@ -23,10 +23,11 @@ public class CreateUniversityServlet extends HttpServlet{
             response.sendRedirect("pages/login.jsp");
             return;
         }
+        int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
         String website = request.getParameter("website");
 
-        University uni = new University(name,website);
+        University uni = new University(id,name,website);
         universityDAO.insert(uni);
 
         response.sendRedirect("UniversityServlet");

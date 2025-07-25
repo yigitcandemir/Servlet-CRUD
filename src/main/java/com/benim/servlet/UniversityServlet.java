@@ -3,7 +3,6 @@ package com.benim.servlet;
 import java.io.IOException;
 import java.util.List;
 
-import com.benim.api.ApiClient;
 import com.benim.dao.UniversityDAO;
 import com.benim.model.University;
 
@@ -20,10 +19,16 @@ public class UniversityServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String search = request.getParameter("search");
-        List<com.benim.api.University> apiList = ApiClient.getTurkishUniversities(search);
-        request.setAttribute("apiUniversities", apiList);
-        List<University> dbList = universityDAO.selectAll();
+        List<University> dbList;
+
+        if (search != null && !search.trim().isEmpty()) {
+            dbList = universityDAO.searchByName(search.trim());  
+        } else {
+            dbList = universityDAO.selectAll();         
+        }
+
         request.setAttribute("dbUniversities", dbList);
         request.getRequestDispatcher("pages/universities.jsp").forward(request, response);
     }
 }
+

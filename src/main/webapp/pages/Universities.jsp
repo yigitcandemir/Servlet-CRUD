@@ -13,7 +13,7 @@
     <form action="pages/create-university.jsp" method="get" style="margin-bottom:10px;">
         <button type="submit">Üniversite Ekle</button>
     </form>
-    <form action="logout.jsp" method="get" style="margin-bottom:10px;">
+    <form action="pages/logout.jsp" method="get" style="margin-bottom:10px;">
         <button type="submit">Çıkış Yap</button>
     </form>
 <%
@@ -22,6 +22,7 @@
 <%
     String contextPath = request.getContextPath();
 %>
+
 <head><title>Üniversiteler</title></head>
 <body>
 <h2>Üniversiteler</h2>
@@ -34,18 +35,6 @@
 <table border="1">
 <tr><th>Ad</th><th>Website</th></tr>
 
-<%-- API Üniversiteleri --%>
-<%
-    java.util.List<com.benim.api.University> apiUnis =
-        (java.util.List<com.benim.api.University>) request.getAttribute("apiUniversities");
-    for (com.benim.api.University u : apiUnis) {
-%>
-<tr>
-<td><%=u.getName()%></td>
-<td><a href="<%=u.getWebsite()%>" target="_blank"><%=u.getWebsite()%></a></td>
-</tr>
-<% } %>
-
 <%-- Veritabanı Üniversiteleri --%>
 <%
     java.util.List<com.benim.model.University> dbUnis =
@@ -55,6 +44,16 @@
 <tr>
 <td><%=u.getName()%></td>
 <td><a href="<%=u.getWebsite()%>" target="_blank"><%=u.getWebsite()%></a></td>
+<% if (session.getAttribute("admin") != null) { %>
+<td>
+<form action="pages/update-university.jsp" method="get" style="display:inline;">
+    <input type="hidden" name="id" value="<%=u.getId()%>">
+    <input type="hidden" name="name" value="<%=u.getName()%>">
+    <input type="hidden" name="website" value="<%=u.getWebsite()%>">
+    <button type="submit">Güncelle</button>
+</form>
+</td>
+<% } %>
 </tr>
 <% } %>
 </table>

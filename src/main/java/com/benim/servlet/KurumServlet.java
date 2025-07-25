@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("/KurumServlet")   // ✅ Tarayıcıdan çağıracağın URL
+@WebServlet("/KurumServlet")   
 public class KurumServlet extends HttpServlet {
     private KurumDAO dao;
 

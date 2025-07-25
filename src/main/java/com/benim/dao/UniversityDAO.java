@@ -15,8 +15,10 @@ public class UniversityDAO {
     private String jdbcUsername = "root";
     private String jdbcPassword = "12345";
 
-    private static final String SELECT_ALL = "SELECT name, website from universiteler";
+    private static final String SELECT_ALL = "SELECT id, name, website from universiteler";
     private static final String INSERT_SQL = "INSERT INTO universiteler(name, website) VALUES (?, ?)";
+    private static final String UPDATE_SQL = "UPDATE universiteler SET name = ?, website = ? WHERE id = ?";
+    private static final String SEARCH_BY_NAME = "SELECT id, name, website FROM universiteler WHERE name LIKE ?";
 
     protected Connection getConnection() throws SQLException{
         try {
@@ -33,10 +35,29 @@ public class UniversityDAO {
         try(java.sql.Connection conn = getConnection(); PreparedStatement ps = conn.prepareStatement(SELECT_ALL)){
             ResultSet rs = ps.executeQuery();
             while(rs.next()){
-                list.add(new University(rs.getString("name"), rs.getString("website")));
+                list.add(new University(rs.getInt("id"),rs.getString("name"), rs.getString("website")));
             }
         }
         catch(SQLException e){
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    public List<University> searchByName(String name) {
+        List<University> list = new ArrayList<>();
+        try (Connection conn = getConnection();
+            PreparedStatement ps = conn.prepareStatement(SEARCH_BY_NAME)) {
+            ps.setString(1, name + "%");
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                list.add(new University(
+                    rs.getInt("id"),
+                    rs.getString("name"),
+                    rs.getString("website")
+                ));
+            }
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return list;
@@ -50,6 +71,15 @@ public class UniversityDAO {
         }
         catch(SQLException e){
             e.printStackTrace();
+        }
+    }
+
+    public void update(University uni) throws SQLException {
+        try ( Connection conn = getConnection(); PreparedStatement ps = conn.prepareStatement(UPDATE_SQL)){
+            ps.setString(1, uni.getName());
+            ps.setString(2, uni.getWebsite());
+            ps.setInt(3, uni.getId());
+            ps.executeUpdate();
         }
     }
 }
