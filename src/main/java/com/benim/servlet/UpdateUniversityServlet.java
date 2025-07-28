@@ -19,10 +19,6 @@ public class UpdateUniversityServlet extends HttpServlet{
     
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
-        if(session == null ||session.getAttribute("admin") == null){
-            response.sendRedirect("pages/login.jsp");
-            return;
-        }
 
         int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");

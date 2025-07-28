@@ -23,7 +23,8 @@
     String contextPath = request.getContextPath();
 %>
 
-<head><title>Üniversiteler</title></head>
+<head>
+    <title>Üniversiteler</title></head>
 <body>
 <h2>Üniversiteler</h2>
 
@@ -33,7 +34,7 @@
 </form>
 
 <table border="1">
-<tr><th>Ad</th><th>Website</th></tr>
+<tr><th>Ad</th><th>Website</th><% if (session.getAttribute("admin") != null) { %> <th>İşlemler</th><% } %></tr>
 
 <%-- Veritabanı Üniversiteleri --%>
 <%
@@ -52,15 +53,32 @@
     <input type="hidden" name="website" value="<%=u.getWebsite()%>">
     <button type="submit">Güncelle</button>
 </form>
-<form action="DeleteUniversity" method="get" style="display:inline;"
-        onsubmit="return confirm('Bu üniversiteyi silmek istediğinize emin misiniz?');">
-        <input type="hidden" name="id" value="<%=u.getId()%>">
-        <button type="submit">Sil</button>
-</form>
+    <button onclick="deleteUniversity('<%=u.getId()%>')" style="margin-left:10px;">Sil</button>
 </td>
 <% } %>
 </tr>
 <% } %>
 </table>
+<script>
+    function deleteUniversity(id) {
+        if (!confirm("Bu üniversiteyi silmek istediğinize emin misiniz?")) return;
+
+        fetch('DeleteUniversity?id=' + id, {
+            method: 'DELETE'
+        })
+        .then(response => {
+            if (response.status === 204) {
+                alert("Silme başarılı!");
+                location.reload();
+            } else {
+                alert("Silme başarısız. Kod: " + response.status);
+            }
+        })
+        .catch(error => {
+            alert("İşlem sırasında hata oluştu.");
+            console.error(error);
+        });
+    }
+</script>
 </body>
 </html>

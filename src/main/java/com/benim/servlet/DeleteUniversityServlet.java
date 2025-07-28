@@ -17,22 +17,27 @@ public class DeleteUniversityServlet extends HttpServlet{
 
     private UniversityDAO universityDAO = new UniversityDAO();
     
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+    protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         HttpSession session = request.getSession(false);
-        if(session == null || session.getAttribute("admin") == null){
-            response.sendRedirect("pages/login.jsp");
+
+        String idString = request.getParameter("id");
+
+
+        if(idString == null){
+            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "ID bulunamadı");
             return;
         }
-
-        int id = Integer.parseInt(request.getParameter("id"));
-
         try{
+            int id = Integer.parseInt(idString);
             universityDAO.delete(id);
-            response.sendRedirect("UniversityServlet");
+            response.setStatus(HttpServletResponse.SC_NO_CONTENT);
         }
-        catch(SQLException e){
+        catch(NumberFormatException e){
+            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "ID geçersiz.");
+        }
+        catch (SQLException e){
             e.printStackTrace();
-            response.sendRedirect("UniversityServlet?error=deleteFailed");
+            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR,"Veri silinirken hata oluştu");
         }
     }
     

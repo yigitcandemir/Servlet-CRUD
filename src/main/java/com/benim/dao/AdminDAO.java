@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class AdminDAO{
     private String jdbcURL = "jdbc:mysql://localhost:3306/admins?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
@@ -12,9 +13,15 @@ public class AdminDAO{
 
     private static final String LOGIN_SQL = "SELECT * FROM admin WHERE username =? and password =?";
 
-    protected Connection getConnection() throws Exception {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        return DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
+    protected Connection getConnection() throws SQLException {
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            return DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
+        }
+        catch (ClassNotFoundException e){
+            throw new SQLException(e);
+        }
+
     }
 
     public boolean validate(String username, String password){
