@@ -1,0 +1,2339 @@
+[
+  {
+    "university_name": "Abant Izzet Baysal University",
+    "campus_name": "İzzet Baysal Kampüsü (Ana Yerleşke)",
+    "city": "Bolu",
+    "district": "Merkez",
+    "address": "Gölköy, Bolu şehir merkezine yaklaşık 8 km uzaklıktadır."
+  },
+  {
+    "university_name": "Abant Izzet Baysal University",
+    "campus_name": "Gerede Kampüsü",
+    "city": "Bolu",
+    "district": "Gerede",
+    "address": "Gerede ilçesinde Uygulamalı Bilimler Fakültesi ve Meslek Yüksekokulu yerleşkesi bulunmaktadır."
+  },
+  {
+    "university_name": "Abant Izzet Baysal University",
+    "campus_name": "Mengen Kampüsü",
+    "city": "Bolu",
+    "district": "Mengen",
+    "address": "Mengen Aşçılık Meslek Yüksekokulu ve Turizm Fakültesi burada yer alır."
+  },
+  {
+    "university_name": "Abant Izzet Baysal University",
+    "campus_name": "Mudurnu Kampüsü",
+    "city": "Bolu",
+    "district": "Mudurnu",
+    "address": "Mudurnu Süreyya Astarcı Meslek Yüksekokulu bu kampüste hizmet vermektedir."
+  },
+  {
+    "university_name": "Abant Izzet Baysal University",
+    "campus_name": "Yeniçağa Kampüsü",
+    "city": "Bolu",
+    "district": "Yeniçağa",
+    "address": "Yeniçağa Yaşar Çelik Meslek Yüksekokulu bu yerleşkededir."
+  },
+  {
+    "university_name": "Abant Izzet Baysal University",
+    "campus_name": "Seben Kampüsü",
+    "city": "Bolu",
+    "district": "Seben",
+    "address": "Seben İzzet Baysal Meslek Yüksekokulu yerleşkesidir."
+  },
+  {
+    "university_name": "Abdullah Gul University",
+    "campus_name": "Sümer Kampüsü",
+    "city": "Kayseri",
+    "district": "Kocasinan",
+    "address": "Sümer Kampüsü, Erkilet Bulvarı, 38080 Kocasinan/Kayseri"
+  },
+  {
+    "university_name": "Abdullah Gul University",
+    "campus_name": "Mimar Sinan Kampüsü (planlama aşamasında)",
+    "city": "Kayseri",
+    "district": "Kocasinan",
+    "address": "Kayseri şehir merkezine yaklaşık 14 km dışındaki Mimar Sinan sahası"
+  },
+  {
+    "university_name": "Acibadem University",
+    "campus_name": "Kerem Aydınlar Kampüsü (Ana Yerleşke)",
+    "city": "İstanbul",
+    "district": "Ataşehir",
+    "address": "İçerenköy Mah. Kayışdağı Cad. No:32, 34752 Ataşehir/İstanbul"
+  },
+  {
+    "university_name": "Adana Science and Technology University",
+    "campus_name": "Balcalı Kampüsü (Ana Yerleşke)",
+    "city": "Adana",
+    "district": "Sarıçam",
+    "address": "Balcalı Mahallesi, Güney Kampüs 10. Sokak No:1 U, Sarıçam/Adana"
+  },
+  {
+    "university_name": "Adiyaman University",
+    "campus_name": "Adıyaman Merkez Yerleşkesi",
+    "city": "Adıyaman",
+    "district": "Merkez",
+    "address": "Altınşehir Mah. Atatürk Bulvarı No:1, 02040 Merkez / Adıyaman"
+  },
+    {
+    "university_name": "Adnan Menderes University",
+    "campus_name": "Merkez (Aytepe) Kampüsü",
+    "city": "Aydın",
+    "district": "Efeler",
+    "address": "Merkez Kampüsü, Aytepe Mevkii, 09100 Efeler/Aydın"
+  },
+  {
+    "university_name": "Adnan Menderes University",
+    "campus_name": "Nazilli Yerleşkesi",
+    "city": "Aydın",
+    "district": "Nazilli",
+    "address": "Nazilli ilçesinde yer alan fakülte ve meslek yüksekokulu yerleşkesi"
+  },
+  {
+    "university_name": "Adnan Menderes University",
+    "campus_name": "Söke Yerleşkesi",
+    "city": "Aydın",
+    "district": "Söke",
+    "address": "Söke ilçesinde İktisadi ve İdari Bilimler Fakültesi yerleşkesi"
+  },
+  {
+    "university_name": "Adnan Menderes University",
+    "campus_name": "İsabeyli Yerleşkesi",
+    "city": "Aydın",
+    "district": "Nazilli",
+    "address": "İsabeyli Mahallesi’nde bulunan uygulamalı eğitim alanı (Nazilli’ye bağlı)"
+  },
+    {
+    "university_name": "Agri Ibrahim Cecen University",
+    "campus_name": "Merkez Kampüsü",
+    "city": "Ağrı",
+    "district": "Merkez",
+    "address": "Erzurum Yolu üzerinde 4 km, Fırat Mahallesi Yeni Üniversite Caddesi No:2 AE/1, 04100 Ağrı Merkez/Ağrı"
+  },
+    {
+    "university_name": "Ahi Evran University",
+    "campus_name": "Bağbaşı Kampüsü (Merkez)",
+    "city": "Kırşehir",
+    "district": "Merkez",
+    "address": "Bağbaşı Mahallesi, Şht. Sahir Kurutluoğlu Cad. No:100, 40100 Kırşehir Merkez/Kırşehir"
+  },
+    {
+    "university_name": "Air Force Academy",
+    "campus_name": "Yeşilyurt Yerleşkesi (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Bakırköy",
+    "address": "Eski Havalimanı Caddesi, Yeşilyurt 34149 Bakırköy/İstanbul"
+  },
+    {
+    "university_name": "Akdeniz University",
+    "campus_name": "Merkez Kampüsü",
+    "city": "Antalya",
+    "district": "Konyaaltı",
+    "address": "Dumlupınar Bulvarı, 07058 Kampüs, Konyaaltı / Antalya"
+  },
+    {
+    "university_name": "Aksaray University",
+    "campus_name": "Merkez Kampüsü",
+    "city": "Aksaray",
+    "district": "Merkez",
+    "address": "Bahçesaray Mahallesi, Necmettin Erbakan Bulvarı, Aksaray Üniversitesi Kampüs Yolu, 68100 Aksaray Merkez/Aksaray"
+  },
+    {
+    "university_name": "Alanya Alaaddin Keykubat University",
+    "campus_name": "Konaklı Kampüsü (Ana Yerleşke)",
+    "city": "Antalya",
+    "district": "Alanya",
+    "address": "Konaklı Mahallesi, Mustafa Kemal Bulvarı No:82, 07490 Alanya / Antalya"
+  },
+  {
+    "university_name": "Alanya Alaaddin Keykubat University",
+    "campus_name": "Gazipaşa Kampüsü",
+    "city": "Antalya",
+    "district": "Gazipaşa",
+    "address": "Pazarcı Mahallesi, İsmail Oğan Cad. No:24, Gazipaşa / Antalya"
+  },
+    {
+    "university_name": "Alanya Hamdullah Emin Pasa University",
+    "campus_name": "Merkez Kampüsü (Cikcilli)",
+    "city": "Antalya",
+    "district": "Alanya",
+    "address": "Cikcilli Mahallesi, Saraybeleni Caddesi No:7, 07400 Alanya/Antalya"
+  },
+  {
+    "university_name": "Alanya Hamdullah Emin Pasa University",
+    "campus_name": "Hamdullah Emin Paşa Kampüsü",
+    "city": "Antalya",
+    "district": "Alanya",
+    "address": "Çarşı Mahallesi, Hamdullah Eminpaşa Sokak No:14, 07400 Alanya/Antalya"
+  },
+    {
+    "university_name": "Amasya University",
+    "campus_name": "Milli Hakimiyet Kampüsü (Merkez)",
+    "city": "Amasya",
+    "district": "Merkez",
+    "address": "Akbilek Mah. Hakimiyet Cad. Milli Hakimiyet Yerleşkesi No:4/3, 05100 Merkez/Amasya"
+  },
+  {
+    "university_name": "Amasya University",
+    "campus_name": "Yeşilırmak Yerleşkesi",
+    "city": "Amasya",
+    "district": "Merkez",
+    "address": "Şeyhcui Mah. Kemal Nehrozoğlu Cad. Yeşilırmak Yerleşkesi, Merkez/Amasya"
+  },
+  {
+    "university_name": "Amasya University",
+    "campus_name": "İpekköy Yerleşkesi",
+    "city": "Amasya",
+    "district": "Merkez",
+    "address": "İpekköy Yerleşkesi, Orman Bağları Mah. İpek Cad., Merkez/Amasya"
+  },
+    {
+    "university_name": "Anadolu University",
+    "campus_name": "Yunus Emre Kampüsü (Merkez)",
+    "city": "Eskişehir",
+    "district": "Tepebaşı",
+    "address": "Yunus Emre Kampüsü, 26470 Tepebaşı/Eskişehir"
+  },
+    {
+    "university_name": "Ankara Medipol University",
+    "campus_name": "Anafartalar Yerleşkesi (Rektörlük / Merkez Kampüs)",
+    "city": "Ankara",
+    "district": "Altındağ",
+    "address": "Hacı Bayram Mahallesi, Talatpaşa Bulvarı No:4/1, Altındağ/Ankara"
+  },
+  {
+    "university_name": "Ankara Medipol University",
+    "campus_name": "Anafartalar Ağız ve Diş Sağlığı Yerleşkesi",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Eti Mahallesi, Celal Bayar Bulvarı No:88, 06570 Çankaya/Ankara"
+  },
+    {
+    "university_name": "Ankara Science University",
+    "campus_name": "Maltepe Kampüsü",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Maltepe Mahallesi, Şehit Gönenç Caddesi No:5, 06570 Çankaya/Ankara"
+  },
+  {
+    "university_name": "Ankara Science University",
+    "campus_name": "Yeni Mahalle Kampüsü",
+    "city": "Ankara",
+    "district": "Yenimahalle",
+    "address": "Çamlıca Mahallesi, Anadolu Bulvarı No:16A/1, Yenimahalle/Ankara"
+  },
+    {
+    "university_name": "Ankara Social Science University",
+    "campus_name": "Oran/Ulus Kampüsü (Merkez Yerleşke)",
+    "city": "Ankara",
+    "district": "Altındağ",
+    "address": "Hükümet Meydanı No:2, 06050 Ulus, Altındağ/Ankara"
+  },
+    {
+    "university_name": "Ankara University",
+    "campus_name": "Tandoğan (Sıhhiye) Kampüsü",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Dögol Caddesi No:8, Beşevler Mah., 06100 Çankaya/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Cebeci Kampüsü",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Cebeci Mahallesi, Cemal Gürsel Caddesi No:52, 06590 Çankaya/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Tandoğan Kampüsü (Mühendislik Fakültesi)",
+    "city": "Ankara",
+    "district": "Yenimahalle",
+    "address": "Gazi Mahallesi, Emniyet Mahallesi, Dögol Caddesi No:8, 06560 Yenimahalle/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Dışkapı Yerleşkesi (Tıp Fakültesi)",
+    "city": "Ankara",
+    "district": "Altındağ",
+    "address": "Dışkapı Mahallesi, Irfan Baştuğ Caddesi No:3, 06110 Altındağ/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Gölbaşı Yerleşkesi",
+    "city": "Ankara",
+    "district": "Gölbaşı",
+    "address": "Gölbaşı Kampüsü, 06830 Gölbaşı/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Bala Yerleşkesi",
+    "city": "Ankara",
+    "district": "Bala",
+    "address": "Bala Teknik Bilimler MYO, 06720 Bala/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Elmadağ Yerleşkesi",
+    "city": "Ankara",
+    "district": "Elmadağ",
+    "address": "Elmadağ Meslek Yüksekokulu, 06780 Elmadağ/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Polatlı Yerleşkesi",
+    "city": "Ankara",
+    "district": "Polatlı",
+    "address": "Polatlı Sağlık Hizmetleri MYO, 06900 Polatlı/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Kalecik Yerleşkesi",
+    "city": "Ankara",
+    "district": "Kalecik",
+    "address": "Kalecik Meslek Yüksekokulu, 06870 Kalecik/Ankara"
+  },
+  {
+    "university_name": "Ankara University",
+    "campus_name": "Haymana Yerleşkesi",
+    "city": "Ankara",
+    "district": "Haymana",
+    "address": "Haymana Meslek Yüksekokulu, 06860 Haymana/Ankara"
+  },
+    {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Esenboğa Külliyesi (Ana Yerleşke)",
+    "city": "Ankara",
+    "district": "Çubuk",
+    "address": "Dumlupınar Mahallesi, Esenboğa–Çubuk yolu üzerinde, Çubuk/Ankara"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Etlik Yerleşkesi – Milli İrade Binası",
+    "city": "Ankara",
+    "district": "Keçiören",
+    "address": "Ayvalı Mahallesi, Gazze Caddesi No:7, Etlik/Keçiören/Ankara"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Etlik Yerleşkesi – 15 Temmuz Şehitleri Binası",
+    "city": "Ankara",
+    "district": "Keçiören",
+    "address": "Ayvalı Mah., 150. Sokak, Etlik/Keçiören/Ankara"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Cinnah Yerleşkesi",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Güvenevler Mahallesi, Güneş Sokak No:11, Çankaya/Ankara"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Bilkent Yerleşkesi (Tıp Fakültesi)",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Bilkent Yolu 3. Km, Çankaya/Ankara"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Çubuk Yerleşkesi",
+    "city": "Ankara",
+    "district": "Çubuk",
+    "address": "Atatürk Bulvarı No:35, Çubuk/Ankara"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Ulus Yerleşkesi (Ek Hizmet Binası)",
+    "city": "Ankara",
+    "district": "Altındağ",
+    "address": "Ulus, çeşitli idari ve araştırma birimlerini barındıran ek kampüs"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Keçiören Yerleşkesi (Merkez Bina)",
+    "city": "Ankara",
+    "district": "Keçiören",
+    "address": "Keçiören ilçesinde temel idari ve eğitimsel binayı içeren yerleşke"
+  },
+  {
+    "university_name": "Ankara Yildirim Beyazit University",
+    "campus_name": "Şereflikoçhisar Yerleşkesi",
+    "city": "Ankara",
+    "district": "Şereflikoçhisar",
+    "address": "Yeşilova Mahallesi E‑90 Karayolu Üzeri No:50/A, Şereflikoçhisar/Ankara"
+  },
+    {
+    "university_name": "Antalya International University",
+    "campus_name": "Döşemealtı Kampüsü (Ana Yerleşke)",
+    "city": "Antalya",
+    "district": "Döşemealtı",
+    "address": "Çıplaklı Mahallesi, Akdeniz Bulvarı No:290A, Döşemealtı/Antalya"
+  },
+  {
+    "university_name": "Antalya International University",
+    "campus_name": "MarkAntalya Kampüsü",
+    "city": "Antalya",
+    "district": "Muratpaşa",
+    "address": "Tahılpazarı Mahallesi, Adnan Menderes Bulvarı No:84, Muratpaşa/Antalya"
+  },
+  {
+    "university_name": "Antalya International University",
+    "campus_name": "Güllük Kampüsü",
+    "city": "Antalya",
+    "district": "Muratpaşa",
+    "address": "Üçgen Mahallesi, Tonguç Caddesi No:31, Muratpaşa/Antalya"
+  },
+  {
+    "university_name": "Antalya International University",
+    "campus_name": "Perge Kampüsü",
+    "city": "Antalya",
+    "district": "Muratpaşa",
+    "address": "Tarım Mahallesi, Perge Bulvarı No:53/C, Muratpaşa/Antalya"
+  },
+    {
+    "university_name": "Ardahan University",
+    "campus_name": "Yenisey Kampüsü (Merkez)",
+    "city": "Ardahan",
+    "district": "Merkez",
+    "address": "Çamlıçatak Mevkii, Ardahan Üniversitesi Yenisey Kampüsü, 75002 Merkez/Ardahan"
+  },
+    {
+    "university_name": "Artvin Coruh University",
+    "campus_name": "Seyitler Yerleşkesi (Merkez Kampüs)",
+    "city": "Artvin",
+    "district": "Merkez",
+    "address": "Çayağzı Mahallesi, Kazım Karabekir Cd. No:1, 08010 Merkez/Artvin"
+  },
+  {
+    "university_name": "Artvin Coruh University",
+    "campus_name": "Hopa Yerleşkesi",
+    "city": "Artvin",
+    "district": "Hopa",
+    "address": "Hopa ilçesinde Artvin Çoruh Üniversitesi Hopa MYO Yerleşkesi"
+  },
+    {
+    "university_name": "Ataturk University",
+    "campus_name": "Erzurum Merkez Kampüsü (Yakutiye)",
+    "city": "Erzurum",
+    "district": "Yakutiye",
+    "address": "Üniversite Mah., Prof. Dr. Kemal Bıyıkoğlu Cd. No:77, 25030 Erzurum Merkez/Yakutiye"
+  },
+    {
+    "university_name": "Atilim University",
+    "campus_name": "İncek Yerleşkesi (Ana Kampüs)",
+    "city": "Ankara",
+    "district": "Gölbaşı / İncek",
+    "address": "Kızılcaşar Mahallesi, 1184. Cadde No:13, İncek/Gölbaşı/Ankara"
+  },
+    {
+    "university_name": "Avrasya University",
+    "campus_name": "Pelitli Yerleşkesi (Rektörlük Ana Kampüs)",
+    "city": "Trabzon",
+    "district": "Ortahisar",
+    "address": "Adnan Kahveci Mahallesi, Rize Caddesi No:226, Pelitli/Trabzon"
+  },
+  {
+    "university_name": "Avrasya University",
+    "campus_name": "Yalıncak Yerleşkesi",
+    "city": "Trabzon",
+    "district": "Yomra",
+    "address": "Yalıncak Mahallesi, Trabzon/Yomra (MYO Sağlık Hizmetleri yerleşkesi)"
+  },
+  {
+    "university_name": "Avrasya University",
+    "campus_name": "Yomra Yerleşkesi (Mühendislik ve Fen‑Edebiyat Fakülte kampüsü)",
+    "city": "Trabzon",
+    "district": "Yomra",
+    "address": "Yomra ilçesi, Avrasya Üniversitesi mühendislik ve fen‑edebiyat fakülteleri yerleşkesi"
+  },
+    {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Beşiktaş Güney Yerleşkesi (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Çırağan Caddesi, Osman Paşa Mektebi Sokak No:4–6, 34353 Beşiktaş/İstanbul"
+  },
+  {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Beşiktaş Kuzey Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Ihlamur Yıldız Caddesi No:8, Gayrettepe, 34353 Beşiktaş/İstanbul"
+  },
+  {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Balmumcu Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Barbaros Bulvarı No:153, Gayrettepe, 34357 Beşiktaş/İstanbul"
+  },
+  {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Galata Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Beyoğlu",
+    "address": "Müeyyetzade Mahallesi, Kemeraltı Caddesi Karaoğlan Sokak No: 24/a, Beyoğlu/İstanbul"
+  },
+  {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Göztepe Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Kadıköy",
+    "address": "Sahrayı Cedid Mahallesi, Batman Sokak No:66–68, Yenisahra/Kadıköy/İstanbul"
+  },
+  {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Pera Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Beyoğlu",
+    "address": "Emekyemez Mahallesi, Şişhane Sokak No:17, 34420 Beyoğlu/İstanbul"
+  },
+  {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Kemerburgaz Kampüsü",
+    "city": "İstanbul",
+    "district": "Eyüpsultan",
+    "address": "Mithatpaşa Mahallesi, İstoza Mevkii, Eyüpsultan/İstanbul"
+  },
+  {
+    "university_name": "Bahcesehir University",
+    "campus_name": "Çatalca Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Çatalca",
+    "address": "Nakkaş Mahallesi, Çingene Çeşmesi Mevkii 2655 Parsel, Çatalca/İstanbul"
+  },
+    {
+    "university_name": "Balikesir University",
+    "campus_name": "Çağış Kampüsü (Ana Yerleşke)",
+    "city": "Balıkesir",
+    "district": "Karesi",
+    "address": "Çağış Yerleşkesi, Bigadiç Yolu Üzeri 17 km, 10145 Balıkesir Merkez/Balıkesir"
+  },
+  {
+    "university_name": "Balikesir University",
+    "campus_name": "NEF Kampüsü (Eğitim Fakültesi & Spor Yüksekokulu)",
+    "city": "Balıkesir",
+    "district": "Karesi",
+    "address": "NEF Kampüsü, Balıkesir şehir merkezinde yer alan eski merkez yerleşke"
+  },
+    {
+    "university_name": "Bandirma Onyedi Eylul University",
+    "campus_name": "Merkez Yerleşkesi",
+    "city": "Bandırma",
+    "district": "Merkez",
+    "address": "Yeni Mahalle, Şehit Astsubay Mustafa Soner Varlık Cad. No:77, 10200 Bandırma/Balıkesir"
+  },
+    {
+    "university_name": "Bartin University",
+    "campus_name": "Kutlubeyyazıcılar Kampüsü (Merkez)",
+    "city": "Bartın",
+    "district": "Merkez",
+    "address": "Kutlubeyyazıcılar Köyü, Yeni Köybağlısı Yeni Sokak No:32/2, 74100 Merkez/Bartın"
+  },
+  {
+    "university_name": "Bartin University",
+    "campus_name": "Ağdacı Kampüsü",
+    "city": "Bartın",
+    "district": "Merkez",
+    "address": "Ağdacı Mahallesi, Fakülte Caddesi No:34, 74100 Merkez/Bartın"
+  },
+    {
+    "university_name": "Baskent University",
+    "campus_name": "Bağlıca Kampüsü (Ana Yerleşke)",
+    "city": "Ankara",
+    "district": "Etimesgut",
+    "address": "Fatih Sultan Mahallesi, Eskişehir Yolu 18. km, Üniversite Caddesi No:42/1, 06790 Etimesgut/Ankara"
+  },
+  {
+    "university_name": "Baskent University",
+    "campus_name": "Şehir Kampüsü (Maltepe / Emek)",
+    "city": "Ankara",
+    "district": "Yenimahalle / Altındağ",
+    "address": "Emek–Maltepe bölgesinde yer alan şehir kampüsü (teknoloji, laboratuvar, derslik alanları)"
+  },
+    {
+    "university_name": "Batman University",
+    "campus_name": "Batı Raman Kampüsü (Ana Yerleşke)",
+    "city": "Batman",
+    "district": "Merkez",
+    "address": "Batı Raman Kampüsü, 72100 Batman Merkez/Batman"
+  },
+  {
+    "university_name": "Batman University",
+    "campus_name": "Merkez (Gültepe) Kampüsü",
+    "city": "Batman",
+    "district": "Merkez",
+    "address": "Kültür Mahallesi, 2606. Sokak, Batman Merkez/Batman"
+  },
+  {
+    "university_name": "Batman University",
+    "campus_name": "Kozluk Kampüsü",
+    "city": "Batman",
+    "district": "Kozluk",
+    "address": "Kozluk ilçesinde Batman Üniversitesi yerleşkesi"
+  },
+  {
+    "university_name": "Batman University",
+    "campus_name": "Hasankeyf Kampüsü",
+    "city": "Batman",
+    "district": "Hasankeyf",
+    "address": "Hasankeyf ilçesindeki Batman Üniversitesi yerleşkesi"
+  },
+    {
+    "university_name": "Bayburt University",
+    "campus_name": "Dede Korkut Kampüsü (Merkez)",
+    "city": "Bayburt",
+    "district": "Merkez",
+    "address": "Gençosman Mahallesi, 21 Şubat Caddesi Dede Korkut Külliyesi No:21/A, 69000 Merkez/Bayburt"
+  },
+    {
+    "university_name": "Beykent University",
+    "campus_name": "Ayazağa‑Maslak Yerleşkesi (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Sarıyer",
+    "address": "Ayazağa Mahallesi, Hadım Koruyolu Cd. No:19, Sarıyer/İstanbul"
+  },
+  {
+    "university_name": "Beykent University",
+    "campus_name": "Beylikdüzü Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Büyükçekmece",
+    "address": "Cumhuriyet Mahallesi, Turgut Özal Blv. No:147, 34500 Beylikdüzü/İstanbul"
+  },
+  {
+    "university_name": "Beykent University",
+    "campus_name": "Hadımköy Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Esenyurt",
+    "address": "Akçaburgaz Mahallesi, Hadımköy İstanbul Cd. No:2/A, Esenyurt/İstanbul"
+  },
+  {
+    "university_name": "Beykent University",
+    "campus_name": "Taksim Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Beyoğlu",
+    "address": "Cihangir Mahallesi, Sıraselviler Cd. No:65, Beyoğlu/İstanbul"
+  },
+    {
+    "university_name": "Bezmialem Vakif University",
+    "campus_name": "Vatan Caddesi Yerleşkesi (Ana Yerleşke / Fatih)",
+    "city": "İstanbul",
+    "district": "Fatih",
+    "address": "Topkapı Mah., Adnan Menderes Bulvarı Vatan Cad. No:113, 34093 Fatih/İstanbul"
+  },
+  {
+    "university_name": "Bezmialem Vakif University",
+    "campus_name": "Eyüpsultan Yerleşkesi (Sağlık Bilimleri Fakültesi)",
+    "city": "İstanbul",
+    "district": "Eyüpsultan",
+    "address": "Merkez Mahallesi, Silahtarağa Caddesi No:289, Eyüpsultan/İstanbul"
+  },
+  {
+    "university_name": "Bezmialem Vakif University",
+    "campus_name": "Sultangazi İlhan Varank Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Sultangazi",
+    "address": "Uğur Mumcu Mahallesi, Muhsin Yazıcıoğlu Cad. 2115 Sok. No:6, 34265 Sultangazi/İstanbul"
+  },
+    {
+    "university_name": "Bilecik University",
+    "campus_name": "Merkez Yerleşkesi (Stasyon Mah.)",
+    "city": "Bilecik",
+    "district": "Merkez",
+    "address": "Stasyon Mahallesi, Üniversite Caddesi No:2, 11210 Merkez/Bilecik"
+  },
+  {
+    "university_name": "Bilecik University",
+    "campus_name": "Bozüyük Yerleşkesi",
+    "city": "Bilecik",
+    "district": "Bozüyük",
+    "address": "Bozüyük ilçesinde Bilecik Şeyh Edebali Üniversitesi yerleşkesi"
+  },
+  {
+    "university_name": "Bilecik University",
+    "campus_name": "Osmaneli Yerleşkesi",
+    "city": "Bilecik",
+    "district": "Osmaneli",
+    "address": "Osmaneli ilçesinde üniversiteye ait uygulama ve eğitim birimleri"
+  },
+  {
+    "university_name": "Bilecik University",
+    "campus_name": "Pazaryeri Yerleşkesi",
+    "city": "Bilecik",
+    "district": "Pazaryeri",
+    "address": "Pazaryeri ilçesinde BŞEÜ’ye bağlı meslek yüksekokulu yerleşkesi"
+  },
+  {
+    "university_name": "Bilecik University",
+    "campus_name": "Gölpazarı Yerleşkesi",
+    "city": "Bilecik",
+    "district": "Gölpazarı",
+    "address": "Gölpazarı ilçesinde BŞEÜ kampüsü"
+  },
+  {
+    "university_name": "Bilecik University",
+    "campus_name": "Söğüt Yerleşkesi",
+    "city": "Bilecik",
+    "district": "Söğüt",
+    "address": "Söğüt ilçesinde üniversitenin bağlı meslek yüksekokulu yerleşkesi"
+  },
+    {
+    "university_name": "Bilkent University",
+    "campus_name": "Ana Kampüs (Bilkent Ana Yerleşke)",
+    "city": "Ankara",
+    "district": "Bilkent / Çankaya",
+    "address": "Üniversiteler Mah., 06800 Bilkent, Çankaya/Ankara"
+  },
+    {
+    "university_name": "Bingol University",
+    "campus_name": "Merkez Kampüsü",
+    "city": "Bingöl",
+    "district": "Merkez",
+    "address": "Selahaddin‑i Eyyübi Mahallesi, Üniversite Caddesi No:1, 12000 Merkez/Bingöl"
+  },
+    {
+    "university_name": "Biruni University",
+    "campus_name": "Merkez Kampüs (Zeytinburnu)",
+    "city": "İstanbul",
+    "district": "Zeytinburnu",
+    "address": "Merkezefendi Mahallesi, 75 Sokak No:1‑13, 34015 Zeytinburnu / İstanbul"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Rahva Yerleşkesi (Merkez)",
+    "city": "Bitlis",
+    "district": "Merkez",
+    "address": "Beş Minare Mah., Ahmet Eren Bulvarı, Rahva Yerleşkesi, 13000 Merkez/Bitlis"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Sosyal Bilimler Meslek Yüksekokulu (Merkez Hüsrevpaşa)",
+    "city": "Bitlis",
+    "district": "Merkez",
+    "address": "Bitlis Merkez Hüsrevpaşa Mahallesi"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Teknik Bilimler Meslek Yüksekokulu (Merkez Hüsrevpaşa)",
+    "city": "Bitlis",
+    "district": "Merkez",
+    "address": "Bitlis Merkez Hüsrevpaşa Mahallesi"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Tatvan Meslek Yüksekokulu",
+    "city": "Bitlis",
+    "district": "Tatvan",
+    "address": "Tatvan, Bitlis"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Ahlat Meslek Yüksekokulu",
+    "city": "Bitlis",
+    "district": "Ahlat",
+    "address": "Ahlat, Bitlis"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Kanık Turizm ve Otelcilik Yüksekokulu (Ahlat)",
+    "city": "Bitlis",
+    "district": "Ahlat",
+    "address": "Ahlat, Bitlis"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Adilcevaz Meslek Yüksekokulu",
+    "city": "Bitlis",
+    "district": "Adilcevaz",
+    "address": "Adilcevaz, Bitlis"
+  },
+  {
+    "university_name": "Bitlis Eren University",
+    "campus_name": "Güroymak Meslek Yüksekokulu",
+    "city": "Bitlis",
+    "district": "Güroymak",
+    "address": "Güroymak, Bitlis"
+  },
+  {
+    "university_name": "Boğaziçi University",
+    "campus_name": "South Campus",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Bebek Mahallesi, Rumeli Hisarı sırtları, Beşiktaş/İstanbul"
+  },
+  {
+    "university_name": "Boğaziçi University",
+    "campus_name": "North Campus",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Beşiktaşiçi (Hisarüstü) bölgesi, Beşiktaş/İstanbul"
+  },
+  {
+    "university_name": "Boğaziçi University",
+    "campus_name": "Hisar (Uçaksavar) Campus",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Hisarüstü–Uçaksavar bölgesi, Beşiktaş/İstanbul"
+  },
+  {
+    "university_name": "Boğaziçi University",
+    "campus_name": "Kandilli Campus",
+    "city": "İstanbul",
+    "district": "Üsküdar (Çengelköy)",
+    "address": "Kandilli Mahallesi, Üsküdar/İstanbul"
+  },
+  {
+    "university_name": "Boğaziçi University",
+    "campus_name": "Saritepe (Kilyos) Campus",
+    "city": "İstanbul",
+    "district": "Sarıyer (Kilyos)",
+    "address": "Saritepe, Kilyos Mahallesi, Sarıyer/İstanbul"
+  },
+  {
+    "university_name": "Boğaziçi University",
+    "campus_name": "Anadolu Hisarı Campus",
+    "city": "İstanbul",
+    "district": "Üsküdar (Anadolu Hisarı)",
+    "address": "Anadolu Hisarı bölgesi, Üsküdar/İstanbul"
+  },
+    {
+    "university_name": "Bozok University",
+    "campus_name": "Erdoğan Akdağ Doğu Kampüsü",
+    "city": "Yozgat",
+    "district": "Merkez",
+    "address": "Atatürk Yolu 7. Km, Erdoğan Akdağ Doğu Kampüsü, 66900 Yozgat Merkez/Yozgat"
+  },
+  {
+    "university_name": "Bozok University",
+    "campus_name": "Bilal Şahin Batı Kampüsü",
+    "city": "Yozgat",
+    "district": "Merkez",
+    "address": "Atatürk Yolu 7. Km, Bilal Şahin Batı Kampüsü, Yozgat Merkez/Yozgat"
+  },
+  {
+    "university_name": "Bozok University",
+    "campus_name": "Sorgun Kampüsü",
+    "city": "Yozgat",
+    "district": "Sorgun",
+    "address": "Sorgun ilçesi, Yozgat"
+  },
+  {
+    "university_name": "Bozok University",
+    "campus_name": "Yerköy Kampüsü",
+    "city": "Yozgat",
+    "district": "Yerköy",
+    "address": "Yerköy ilçesi, Yozgat"
+  },
+  {
+    "university_name": "Bozok University",
+    "campus_name": "Boğazlıyan Kampüsü",
+    "city": "Yozgat",
+    "district": "Boğazlıyan",
+    "address": "Boğazlıyan ilçesi, Yozgat"
+  },
+  {
+    "university_name": "Bozok University",
+    "campus_name": "Çekerek Kampüsü",
+    "city": "Yozgat",
+    "district": "Çekerek",
+    "address": "Çekerek ilçesi, Yozgat"
+  },
+    {
+    "university_name": "Bulent Ecevit University",
+    "campus_name": "Ana Kampüs (İncivez Yerleşkesi)",
+    "city": "Zonguldak",
+    "district": "Merkez (İncivez Mahallesi)",
+    "address": "Üniversite Cd. No:176, İncivez Mah., 67100 Zonguldak Merkez/Zonguldak"
+  },
+    {
+    "university_name": "Bursa Technical University",
+    "campus_name": "Mimar Sinan Yerleşkesi",
+    "city": "Bursa",
+    "district": "Yıldırım ilçesi (Mimar Sinan Mah.)",
+    "address": "Mimar Sinan Mahallesi, Mimar Sinan Bulvarı, Eflak Cd. No:177, 16310 Yıldırım/Bursa"
+  },
+  {
+    "university_name": "Bursa Technical University",
+    "campus_name": "Yıldırım Bayezid Yerleşkesi",
+    "city": "Bursa",
+    "district": "Yıldırım ilçesi",
+    "address": "Yıldırım Bayezid Yerleşkesi, Yıldırım/Bursa"
+  },
+    {
+    "university_name": "Cag University",
+    "campus_name": "Yaşar Bayboğan Yerleşkesi",
+    "city": "Mersin",
+    "district": "Tarsus (Yenice Beldesi)",
+    "address": "Adana‑Mersin D‑400 Karayolu üzeri, 33800 Yenice/Tarsus/Mersin"
+  },
+    {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Terzioğlu Campus",
+    "city": "Çanakkale",
+    "district": "Merkez",
+    "address": "Terzioğlu Yerleşkesi, Rektörlük Binası, A Blok, 17020 Çanakkale Merkez/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Anafartalar Campus",
+    "city": "Çanakkale",
+    "district": "Merkez (Anafartalar Mahallesi)",
+    "address": "Anafartalar Yerleşkesi, Çanakkale Merkez/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Dardanos Campus",
+    "city": "Çanakkale",
+    "district": "Dardanos",
+    "address": "Dardanos Yerleşkesi, Dardanos/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Kepez Medical Campus",
+    "city": "Çanakkale",
+    "district": "Kepez",
+    "address": "Kepez Tıp Fakültesi ve Hastanesi Kampüsü, Kepez/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Ulupınar Campus",
+    "city": "Çanakkale",
+    "district": "Ulupınar",
+    "address": "Ulupınar Yerleşkesi (Gözlemevi), Ulupınar Köyü/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Biga Ağaköy Campus",
+    "city": "Çanakkale",
+    "district": "Biga (Ağaköy)",
+    "address": "Biga Ağaköy Yerleşkesi, Ağaköy/Biga/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Biga Campus 2",
+    "city": "Çanakkale",
+    "district": "Biga",
+    "address": "Biga Yerleşkesi 2, Biga/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Gökçeada Campus",
+    "city": "Çanakkale",
+    "district": "Gökçeada",
+    "address": "Gökçeada Yerleşkesi, Gökçeada/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Çan Campus",
+    "city": "Çanakkale",
+    "district": "Çan",
+    "address": "Çan Yerleşkesi, Çan/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Gelibolu Campus",
+    "city": "Çanakkale",
+    "district": "Gelibolu",
+    "address": "Gelibolu Yerleşkesi, Gelibolu/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Ezine Campus",
+    "city": "Çanakkale",
+    "district": "Ezine",
+    "address": "Ezine Yerleşkesi, Ezine/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Yenice Campus",
+    "city": "Çanakkale",
+    "district": "Yenice",
+    "address": "Yenice Yerleşkesi, Yenice/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Bayramiç Campus",
+    "city": "Çanakkale",
+    "district": "Bayramiç",
+    "address": "Bayramiç Yerleşkesi, Bayramiç/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Lapseki Campus",
+    "city": "Çanakkale",
+    "district": "Lapseki",
+    "address": "Lapseki Yerleşkesi, Lapseki/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Ayvacık Campus",
+    "city": "Çanakkale",
+    "district": "Ayvacık",
+    "address": "Ayvacık Yerleşkesi, Ayvacık/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Eceabat Campus",
+    "city": "Çanakkale",
+    "district": "Eceabat",
+    "address": "Eceabat Yerleşkesi, Eceabat/Çanakkale"
+  },
+  {
+    "university_name": "Canakkale (18th March) University",
+    "campus_name": "Bozcaada Campus",
+    "city": "Çanakkale",
+    "district": "Bozcaada",
+    "address": "Bozcaada Yerleşkesi, Bozcaada/Çanakkale"
+  },
+    {
+    "university_name": "Cankaya University",
+    "campus_name": "Central Campus",
+    "city": "Ankara",
+    "district": "Etimesgut (Yukarıyurtçu Mahallesi)",
+    "address": "Eskişehir Yolu 29. Km, Yukarıyurtçu Mah., Mimar Sinan Cad. No:4, 06815 Etimesgut/Ankara"
+  },
+  {
+    "university_name": "Cankaya University",
+    "campus_name": "Balgat Campus",
+    "city": "Ankara",
+    "district": "Çankaya (Çukurambar Mahallesi)",
+    "address": "Öğretmenler Cad. No:14, 06530 Çukurambar/Çankaya/Ankara"
+  },
+    {
+    "university_name": "Cankiri karatekin University",
+    "campus_name": "Uluyazı Campus",
+    "city": "Çankırı",
+    "district": "Merkez (Uluyazı bölgesi)",
+    "address": "Fatih, Uluyazı Kampüsü Ring Yolu, 18100 Çankırı Merkez/Çankırı"
+  },
+  {
+    "university_name": "Cankiri karatekin University",
+    "campus_name": "Merkez Campus",
+    "city": "Çankırı",
+    "district": "Merkez",
+    "address": "Çankırı şehir merkezinde bazı fakülteler ve MYO’lar"
+  },
+  {
+    "university_name": "Cankiri karatekin University",
+    "campus_name": "Eldivan Sağlık Hizmetleri MYO Campus",
+    "city": "Çankırı",
+    "district": "Eldivan",
+    "address": "Eldivan Meslek Yüksekokulu Kampüsü, Eldivan/Çankırı"
+  },
+  {
+    "university_name": "Cankiri karatekin University",
+    "campus_name": "Ilgaz Turizm ve Otelcilik MYO Campus",
+    "city": "Çankırı",
+    "district": "Ilgaz",
+    "address": "Ilgaz Turizm ve Otelcilik Meslek Yüksekokulu Kampüsü, Ilgaz/Çankırı"
+  },
+   {
+    "university_name": "Celal Bayar University",
+    "campus_name": "Muradiye Yerleşkesi",
+    "city": "Manisa",
+    "district": "Yunusemre (Muradiye Mahallesi)",
+    "address": "Muradiye Mah., Yunusemre/Manisa"
+  },
+  {
+    "university_name": "Celal Bayar University",
+    "campus_name": "Uncubozköy Yerleşkesi",
+    "city": "Manisa",
+    "district": "Şehzadeler (Uncubozköy Mahallesi)",
+    "address": "Uncubozköy Mah., Şehzadeler/Manisa"
+  },
+  {
+    "university_name": "Celal Bayar University",
+    "campus_name": "Manisa Merkez Yerleşkesi",
+    "city": "Manisa",
+    "district": "Merkez",
+    "address": "Manisa şehir merkezindeki akademik binalar"
+  },
+  {
+    "university_name": "Celal Bayar University",
+    "campus_name": "Şehzadeler Yerleşkesi (Süleyman Demirel Kültür Merkezi)",
+    "city": "Manisa",
+    "district": "Şehzadeler",
+    "address": "Süleyman Demirel Kültür Merkezi, Şehzadeler/Manisa"
+  },
+  {
+    "university_name": "Celal Bayar University",
+    "campus_name": "İlçe Yerleşkeleri (Meslek Yüksekokulları)",
+    "city": "Manisa",
+    "district": "Turgutlu, Akhisar, Kırkağaç, Gördes, Gölmarmara, Soma, Alaşehir, Sarıgöl, Kula",
+    "address": "İlçelerde bulunan MYO binaları"
+  },
+     {
+    "university_name": "Cukurova University",
+    "campus_name": "Balcalı Kampüsü",
+    "city": "Adana",
+    "district": "Sarıçam (Balcalı Mahallesi çevresi)",
+    "address": "Balcalı Kampüsü 1. Sokak No:6, 01250 Sarıçam/Adana"
+  },
+    {
+    "university_name": "Cumhuriyet (Republik) University",
+    "campus_name": "Merkez Yerleşkesi",
+    "city": "Sivas",
+    "district": "Merkez (Yenişehir Mahallesi / Cumhuriyet Üniversitesi Yerleşkesi Sk.)",
+    "address": "Cumhuriyet Üniversitesi Yerleşkesi Sk. No:73, 58140 Sivas Merkez/Sivas"
+  },
+  {
+    "university_name": "Cumhuriyet (Republik) University",
+    "campus_name": "İlçe Yerleşkeleri (Meslek Yüksekokulları)",
+    "city": "Sivas",
+    "district": "Çeşitli İlçeler",
+    "address": "Sivas’ın ilçelerinde bulunan meslek yüksekokulu yerleşkeleri (Divriği, Gürün, Kangal, Şarkışla Aşık Veysel vs.)"
+  },
+    {
+    "university_name": "Dicle (Tirgris) University",
+    "campus_name": "Merkez Yerleşkesi (Kıtılbil Yerleşkesi)",
+    "city": "Diyarbakır",
+    "district": "Merkez (Sur / Kıtılbil Mahallesi)",
+    "address": "Kıtılbil Mah., Sur/Diyarbakır"
+  },
+  {
+    "university_name": "Dicle (Tirgris) University",
+    "campus_name": "İlçe Yerleşkeleri (Meslek Yüksekokulları)",
+    "city": "Diyarbakır",
+    "district": "Ergani, Çermik, Çüngüş, Bismil, Silvan",
+    "address": "Diyarbakır’ın çeşitli ilçelerinde bulunan MYO yerleşkeleri"
+  },
+    {
+    "university_name": "Dogus University",
+    "campus_name": "Dudullu Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Ümraniye (Dudullu OSB Mahallesi)",
+    "address": "Nato Yolu Cd. No:265, Dudullu Yerleşkesi, 34775 Ümraniye/İstanbul"
+  },
+  {
+    "university_name": "Dogus University",
+    "campus_name": "Çengelköy Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Üsküdar (Çengelköy Mahallesi)",
+    "address": "Bosna Bulvarı No:140, Çengelköy Yerleşkesi, 34680 Üsküdar/İstanbul"
+  },
+    {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Tınaztepe Kampüsü",
+    "city": "İzmir",
+    "district": "Buca",
+    "address": "Buca ilçesi, Tınaztepe bölgesi"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Dokuzçeşmeler Kampüsü",
+    "city": "İzmir",
+    "district": "Buca (Dokuzçeşmeler)",
+    "address": "Buca Dokuzçeşmeler bölgesi"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Eğitim Fakültesi Kampüsü",
+    "city": "İzmir",
+    "district": "Buca (Efeler)",
+    "address": "Buca Efeler bölgesi, Eğitim Fakültesi"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Alsancak Kampüsü",
+    "city": "İzmir",
+    "district": "Konak (Alsancak)",
+    "address": "Alsancak bölgesi, Rektörlük ve idari birimler"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "İnciraltı Kampüsü",
+    "city": "İzmir",
+    "district": "Balçova (İnciraltı)",
+    "address": "Balçova ilçesi, İnciraltı Üniversitesi Hastanesi, Tıp‑Diş‑Hemşirelik"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Hatay Kampüsü",
+    "city": "İzmir",
+    "district": "Karabağlar (Hatay)",
+    "address": "Hatay bölgesi, İlahiyat Fakültesi ve Dini Yüksekokul"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Torbalı Kampüsü",
+    "city": "İzmir",
+    "district": "Torbalı",
+    "address": "Torbalı ilçesi, Torbalı Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Urla Kampüsü",
+    "city": "İzmir",
+    "district": "Urla",
+    "address": "Urla ilçesi, Denizcilik Fakültesi"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Seferihisar Kampüsü",
+    "city": "İzmir",
+    "district": "Seferihisar",
+    "address": "Seferihisar ilçesi, Fevziye Hepkon Uygulamalı Bilimler Yüksekokulu"
+  },
+  {
+    "university_name": "Dokuz Eylül University",
+    "campus_name": "Foça Kampüsü",
+    "city": "İzmir",
+    "district": "Foça",
+    "address": "Foça ilçesi, Reha Midilli Turizm Fakültesi"
+  },
+    {
+    "university_name": "Dumlupinar University",
+    "campus_name": "Evliya Çelebi Yerleşkesi",
+    "city": "Kütahya",
+    "district": "Merkez (Dumlupınar Mahallesi, Kütahya‑Tavşanlı Yolu 10 km)",
+    "address": "Dumlupınar Mah., Kütahya‑Tavşanlı Karayolu 10 km, 43100 Kütahya Merkez/Kütahya"
+  },
+  {
+    "university_name": "Dumlupinar University",
+    "campus_name": "Germiyan Yerleşkesi",
+    "city": "Kütahya",
+    "district": "Merkez (Germiyan bölgesi)",
+    "address": "Germiyan, Kütahya Merkez/Kütahya, Afyon‑Kütahya Karayolu kenarı"
+  },
+  {
+    "university_name": "Dumlupinar University",
+    "campus_name": "Simav Dr. İbrahim Naci Eren Yerleşkesi",
+    "city": "Kütahya",
+    "district": "Simav",
+    "address": "Simav ilçesi, Dr. İbrahim Naci Eren Yerleşkesi"
+  },
+  {
+    "university_name": "Dumlupinar University",
+    "campus_name": "Tavşanlı Yerleşkesi",
+    "city": "Kütahya",
+    "district": "Tavşanlı",
+    "address": "Tavşanlı ilçesi, Tavşanlı Uygulamalı Bilimler Fakültesi ve MYO"
+  },
+  {
+    "university_name": "Dumlupinar University",
+    "campus_name": "İlçe Yerleşkeleri (MYO ve Fakülte Binaları)",
+    "city": "Kütahya",
+    "district": "Diğer 8 İlçe",
+    "address": "Kütahya’nın 8 ilçesinde çeşitli meslek yüksekokulu ve fakülte binaları"
+  },
+    {
+    "university_name": "Duzce University",
+    "campus_name": "Konuralp Yerleşkesi",
+    "city": "Düzce",
+    "district": "Merkez (Yörük Mahallesi civarı)",
+    "address": "Yörük Mah. Merkez/Düzce (Şehir merkezine yaklaşık 8‑10 km)"
+    
+  },
+  {
+    "university_name": "Duzce University",
+    "campus_name": "Akçakoca Yerleşkesi",
+    "city": "Düzce",
+    "district": "Akçakoca",
+    "address": "Akçakoca ilçesi, meslek yüksekokulu ve turizm‑otelcilik birimleri"
+    
+  },
+  {
+    "university_name": "Duzce University",
+    "campus_name": "Çilimli Yerleşkesi",
+    "city": "Düzce",
+    "district": "Çilimli",
+    "address": "Çilimli ilçesi, Çilimli Meslek Yüksekokulu"
+    
+  },
+  {
+    "university_name": "Duzce University",
+    "campus_name": "Gümüşova Yerleşkesi",
+    "city": "Düzce",
+    "district": "Gümüşova",
+    "address": "Gümüşova ilçesi, Gümüşova Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Duzce University",
+    "campus_name": "Kaynaşlı Yerleşkesi",
+    "city": "Düzce",
+    "district": "Kaynaşlı",
+    "address": "Kaynaşlı ilçesi, Kaynaşlı Meslek Yüksekokulu"
+  },
+    {
+    "university_name": "Ege University",
+    "campus_name": "Merkez Yerleşkesi (Bornova)",
+    "city": "İzmir",
+    "district": "Bornova (Erzene Mahallesi civarı)",
+    "address": "Gençlik Cad., Ege Üniversitesi Kampüsü, 35040 Bornova/İzmir"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Gaziemir Yerleşkesi",
+    "city": "İzmir",
+    "district": "Gaziemir",
+    "address": "Gaziemir ilçesi, Havacılık Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Karşıyaka Yerleşkesi",
+    "city": "İzmir",
+    "district": "Karşıyaka",
+    "address": "Karşıyaka ilçesi, Diş Hekimliği ve Sağlık Bilimleri birimleri"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Aliağa Yerleşkesi",
+    "city": "İzmir",
+    "district": "Aliağa",
+    "address": "Aliağa ilçesi, Aliağa Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Bayındır Yerleşkesi",
+    "city": "İzmir",
+    "district": "Bayındır",
+    "address": "Bayındır ilçesi, Bayındır Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Bergama Yerleşkesi",
+    "city": "İzmir",
+    "district": "Bergama",
+    "address": "Bergama Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Çeşme Yerleşkesi",
+    "city": "İzmir",
+    "district": "Çeşme",
+    "address": "Çeşme Turizm Fakültesi"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Ödemiş Yerleşkesi",
+    "city": "İzmir",
+    "district": "Ödemiş",
+    "address": "Ödemiş Sağlık Yüksekokulu & Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Tire Yerleşkesi",
+    "city": "İzmir",
+    "district": "Tire",
+    "address": "Tire Kutsan Meslek Yüksekokulu"
+  },
+  {
+    "university_name": "Ege University",
+    "campus_name": "Urla Yerleşkesi",
+    "city": "İzmir",
+    "district": "Urla",
+    "address": "Urla Denizcilik MYO ve Sualtı Uygulama Merkezi"
+  },
+    {
+    "university_name": "Erciyes University",
+    "campus_name": "Ana Yerleşke (Talas Yolu)",
+    "city": "Kayseri",
+    "district": "Talas (Yenidoğan Mahallesi civarı)",
+    "address": "Yenidoğan Mah. Turhan Baytop Sokak No:1, 38280 Talas/Kayseri",
+    "notes": "Ana kampüs; fakülteler, araştırma hastanesi, sosyal tesisler"
+  },
+  {
+    "university_name": "Erciyes University",
+    "campus_name": "Seyrani Yerleşkesi",
+    "city": "Kayseri",
+    "district": "Melikgazi (Şehir merkezine yakın)",
+    "address": "Kayseri şehir merkezine yaklaşık 6 km uzaklıkta, Seyrani Yerleşkesi",
+    "notes": "İkincil kampüs; kısmî fakülte ve birimler"
+  },
+  {
+    "university_name": "Erciyes University",
+    "campus_name": "Tomarza Yerleşkesi",
+    "city": "Kayseri",
+    "district": "Tomarza",
+    "address": "Tomarza ilçesinde sadece bir meslek yüksekokulu kampüsü",
+    "notes": "Tomarza MYO’ya ev sahipliği yapar"
+  },
+    {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Yalnızbağ Yerleşkesi (Ana Kampüs)",
+    "city": "Erzincan",
+    "district": "Merkez (Yalnızbağ Mahallesi)",
+    "address": "Yalnızbağ Mah., Erzincan Merkez/Erzincan"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Hukuk Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Merkez (Şehir Merkezi)",
+    "address": "Erzincan şehir merkezine yaklaşık 3 km uzaklıkta"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Sağlık Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Merkez (Şehir Merkezi)",
+    "address": "Erzincan şehir merkezinde, Mengücek Gazi Eğitim ve Araştırma Hastanesi çevresinde"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Hacı Ali Akın Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Merkez (Şehir Merkezi)",
+    "address": "Erzincan şehir merkezinde yeşil bir alanda"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Mengücek Gazi Eğitim ve Araştırma Hastanesi Kampüsü",
+    "city": "Erzincan",
+    "district": "Merkez (Şehir Merkezi)",
+    "address": "Erzincan şehir merkezinde, Mengücek Gazi Eğitim ve Araştırma Hastanesi çevresinde"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Refahiye Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Refahiye",
+    "address": "Refahiye ilçesinde"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Kemaliye Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Kemaliye",
+    "address": "Kemaliye ilçesinde"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Tercan Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Tercan",
+    "address": "Tercan ilçesinde"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Çayırlı Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Çayırlı",
+    "address": "Çayırlı ilçesinde"
+  },
+  {
+    "university_name": "Erzincan Binali Yıldırım University",
+    "campus_name": "Üzümlü Yerleşkesi",
+    "city": "Erzincan",
+    "district": "Üzümlü",
+    "address": "Üzümlü ilçesinde"
+  },
+    {
+    "university_name": "Erzurum Teknik Üniversitesi",
+    "campus_name": "Ana Yerleşke",
+    "city": "Erzurum",
+    "district": "Yakutiye",
+    "address": "Ömer Nasuhi Bilmen Mah. Farabi Bulvarı No:12 25100 Yakutiye/ERZURUM"
+  },
+    {
+    "university_name": "Eski?ehir Teknik ?niversitesi",
+    "campus_name": "İki Eylül Yerleşkesi (Ana Kampüs)",
+    "city": "Eski?ehir",
+    "district": "Tepebaşı (Gazipa?a Mahallesi)",
+    "address": "Gazipa?a Mah., Eski?ehir Teknik ?niversitesi İki Eylül Kampüsü 26555, Tepebaşı/ESKİ?EHİR"
+  },
+  {
+    "university_name": "Eski?ehir Teknik ?niversitesi",
+    "campus_name": "Borabey Yerleşkesi",
+    "city": "Eski?ehir",
+    "district": "Tepebaşı (Kavacık-Patlaklı Mevkii)",
+    "address": "Kavacık-Patlaklı Mevkii, Eski?ehir Teknik ?niversitesi Borabey Kampüsü 26563, Tepebaşı/ESKİ?EHİR"
+  },
+  {
+    "university_name": "Eski?ehir Teknik ?niversitesi",
+    "campus_name": "Porsuk Yerleşkesi",
+    "city": "Eski?ehir",
+    "district": "Odunpazarı (Osmangazi Mahallesi)",
+    "address": "Osmangazi Mah., Eski?ehir Teknik ?niversitesi Porsuk MYO 26140, Odunpazarı/ESKİ?EHİR"
+  },
+    {
+    "university_name": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "campus_name": "Fatih Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Fatih",
+    "address": "Zeyrek Mah. Büyükkaraman Cad. No:53 Fatih/İstanbul"
+  },
+  {
+    "university_name": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "campus_name": "Haliç Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Beyoğlu",
+    "address": "Sütlüce Mah. Halıcıoğlu Kavşağı No:12 Beyoğlu/İstanbul"
+  },
+  {
+    "university_name": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "campus_name": "Topkapı Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Zeytinburnu",
+    "address": "Merkezefendi Mah. Mevlevihane Cad. No:27 Zeytinburnu/İstanbul"
+  },
+  {
+    "university_name": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "campus_name": "Üsküdar Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Üsküdar",
+    "address": "Valide-i Atik Mah. Eski Toptaşı Cad. No:93 Atik Valide Külliyesi Üsküdar/İstanbul"
+  },
+  {
+    "university_name": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "campus_name": "Ayasofya Medresesi",
+    "city": "İstanbul",
+    "district": "Fatih",
+    "address": "Cankurtaran Mah. Caferiye Medresesi Sok. No:36 Ayasofya Medresesi Fatih/İstanbul"
+  },
+  {
+    "university_name": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "campus_name": "Gülhane Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Fatih",
+    "address": "Gülhane Parkı içi, Fatih/İstanbul"
+  },
+  {
+    "university_name": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "campus_name": "Çamlıca Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Üsküdar",
+    "address": "Çamlıca Mah. Çamlıca Tepesi, Üsküdar/İstanbul"
+  },
+    {
+    "university_name": "Fenerbahce University",
+    "campus_name": "Ataşehir Metropol Kampüsü",
+    "city": "İstanbul",
+    "district": "Ataşehir",
+    "address": "Atatürk Mah. Ataşehir Bulvarı, Metropol İstanbul, 34758 Ataşehir/İstanbul"
+  },
+  {
+    "university_name": "Fenerbahce University",
+    "campus_name": "Ataşehir 2. Kampüs",
+    "city": "İstanbul",
+    "district": "Ataşehir",
+    "address": "Atatürk Mah. Ataşehir Bulvarı, Metropol İstanbul, 34758 Ataşehir/İstanbul"
+  },
+  {
+    "university_name": "Fenerbahce University",
+    "campus_name": "Dereağzı Spor ve Sağlık Uygulama Alanları",
+    "city": "İstanbul",
+    "district": "Kadıköy",
+    "address": "Dereağzı Mah., Kadıköy/İstanbul"
+  },
+    {
+    "university_name": "Firat (Euphrates) University",
+    "campus_name": "Rektörlük Kampüsü",
+    "city": "Elazığ",
+    "district": "Merkez (Üniversite Mahallesi)",
+    "address": "Üniversite Mah., Fırat Üniversitesi Rektörlük Kampüsü, 23119 Elazığ"
+  },
+  {
+    "university_name": "Firat (Euphrates) University",
+    "campus_name": "Mühendislik Fakültesi Kampüsü",
+    "city": "Elazığ",
+    "district": "Merkez (Üniversite Mahallesi)",
+    "address": "Üniversite Mah., Fırat Üniversitesi Mühendislik Fakültesi Kampüsü, 23119 Elazığ"
+  },
+  {
+    "university_name": "Firat (Euphrates) University",
+    "campus_name": "Kesikköprü Kampüsü",
+    "city": "Elazığ",
+    "district": "Kesikköprü",
+    "address": "Kesikköprü, Fırat Üniversitesi Kesikköprü Kampüsü, 23119 Elazığ"
+  },
+  {
+    "university_name": "Firat (Euphrates) University",
+    "campus_name": "Yurtbaşı Araştırma ve Uygulama Çiftliği",
+    "city": "Elazığ",
+    "district": "Yurtbaşı",
+    "address": "Yurtbaşı, Fırat Üniversitesi Yurtbaşı Araştırma ve Uygulama Çiftliği, 23119 Elazığ"
+  },
+  {
+    "university_name": "Firat (Euphrates) University",
+    "campus_name": "Sivrice Cevizdere Eğitim ve Dinlenme Tesisi",
+    "city": "Elazığ",
+    "district": "Sivrice",
+    "address": "Sivrice Cevizdere, Fırat Üniversitesi Eğitim ve Dinlenme Tesisi, 23119 Elazığ"
+  },
+  {
+    "university_name": "Firat (Euphrates) University",
+    "campus_name": "Harmantepe-Cip Barajı Su Ürünleri Tesisleri",
+    "city": "Elazığ",
+    "district": "Harmantepe",
+    "address": "Harmantepe-Cip Barajı, Fırat Üniversitesi Su Ürünleri Tesisleri, 23119 Elazığ"
+  },
+    {
+    "university_name": "Galatasaray University",
+    "campus_name": "Ortaköy Kampüsü",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Çırağan Caddesi No:36, 34349 Ortaköy/İstanbul"
+  },
+    {
+    "university_name": "Gazi University",
+    "campus_name": "Beşevler Kampüsü (Ana Kampüs)",
+    "city": "Ankara",
+    "district": "Yenimahalle",
+    "address": "Emniyet Mahallesi, Bandırma Caddesi No:6/1A, 06500 Yenimahalle/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "Emek Kampüsü",
+    "city": "Ankara",
+    "district": "Emek",
+    "address": "Emek Mahallesi, 06500 Emek/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "Maltepe Kampüsü",
+    "city": "Ankara",
+    "district": "Maltepe",
+    "address": "Maltepe Mahallesi, 06500 Maltepe/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "Gölbaşı Kampüsü",
+    "city": "Ankara",
+    "district": "Gölbaşı",
+    "address": "Gölbaşı Mahallesi, 06830 Gölbaşı/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "Ostim Kampüsü",
+    "city": "Ankara",
+    "district": "Ostim",
+    "address": "Ostim Mahallesi, 06374 Ostim/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "Polatlı Kampüsü",
+    "city": "Ankara",
+    "district": "Polatlı",
+    "address": "Polatlı Mahallesi, 06900 Polatlı/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "Çubuk Kampüsü",
+    "city": "Ankara",
+    "district": "Çubuk",
+    "address": "Çubuk Mahallesi, 06760 Çubuk/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "Tunus Caddesi Yerleşkesi",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Tunus Caddesi, 06680 Çankaya/Ankara"
+  },
+  {
+    "university_name": "Gazi University",
+    "campus_name": "TUSAŞ Kahramankazan Yerleşkesi",
+    "city": "Ankara",
+    "district": "Kahramankazan",
+    "address": "Kahramankazan Mahallesi, 06750 Kahramankazan/Ankara"
+  },
+    {
+    "university_name": "Gaziantep University",
+    "campus_name": "Ana Kampüs (Üniversite Bulvarı)",
+    "city": "Gaziantep",
+    "district": "Şehitkamil",
+    "address": "Üniversite Bulvarı, 27310 Şehitkamil/Gaziantep"
+  },
+  {
+    "university_name": "Gaziantep University",
+    "campus_name": "15 Temmuz Demokrasi Kampüsü",
+    "city": "Gaziantep",
+    "district": "Şahinbey",
+    "address": "Turgut Cansever Caddesi, 27010 Şahinbey/Gaziantep"
+  },
+  {
+    "university_name": "Gaziantep University",
+    "campus_name": "Naci Topçuoğlu Meslek Yüksekokulu",
+    "city": "Gaziantep",
+    "district": "Şahinbey",
+    "address": "Naci Topçuoğlu Mahallesi, 27010 Şahinbey/Gaziantep"
+  },
+  {
+    "university_name": "Gaziantep University",
+    "campus_name": "Oğuzeli Yerleşkesi",
+    "city": "Gaziantep",
+    "district": "Oğuzeli",
+    "address": "Oğuzeli Mahallesi, 27800 Oğuzeli/Gaziantep"
+  },
+  {
+    "university_name": "Gaziantep University",
+    "campus_name": "Nizip Yerleşkesi",
+    "city": "Gaziantep",
+    "district": "Nizip",
+    "address": "Nizip Mahallesi, 27700 Nizip/Gaziantep"
+  },
+  {
+    "university_name": "Gaziantep University",
+    "campus_name": "İslahiye Yerleşkesi",
+    "city": "Gaziantep",
+    "district": "İslahiye",
+    "address": "İslahiye Mahallesi, 27800 İslahiye/Gaziantep"
+  },
+  {
+    "university_name": "Gaziantep University",
+    "campus_name": "Nurdağı Yerleşkesi",
+    "city": "Gaziantep",
+    "district": "Nurdağı",
+    "address": "Nurdağı Mahallesi, 27900 Nurdağı/Gaziantep"
+  },
+  {
+    "university_name": "Gaziantep University",
+    "campus_name": "Araban Yerleşkesi",
+    "city": "Gaziantep",
+    "district": "Araban",
+    "address": "Araban Mahallesi, 27950 Araban/Gaziantep"
+  },
+    {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Taşlıçiftlik Kampüsü (Ana Kampüs)",
+    "city": "Tokat",
+    "district": "Merkez",
+    "address": "Taşlıçiftlik Mevkii, Tokat-Turhal Yolu 9. km, 60250 Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Ali Şevki Erek Yerleşkesi",
+    "city": "Tokat",
+    "district": "Merkez",
+    "address": "Ali Şevki Erek Mahallesi, 60200 Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Erbaa Kampüsü",
+    "city": "Tokat",
+    "district": "Erbaa",
+    "address": "Erbaa, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Zile Kampüsü",
+    "city": "Tokat",
+    "district": "Zile",
+    "address": "Zile, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Niksar Kampüsü",
+    "city": "Tokat",
+    "district": "Niksar",
+    "address": "Niksar, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Turhal Kampüsü",
+    "city": "Tokat",
+    "district": "Turhal",
+    "address": "Turhal, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Reşadiye Kampüsü",
+    "city": "Tokat",
+    "district": "Reşadiye",
+    "address": "Reşadiye, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Almus Kampüsü",
+    "city": "Tokat",
+    "district": "Almus",
+    "address": "Almus, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Artova Kampüsü",
+    "city": "Tokat",
+    "district": "Artova",
+    "address": "Artova, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Pazar Kampüsü",
+    "city": "Tokat",
+    "district": "Pazar",
+    "address": "Pazar, Tokat"
+  },
+  {
+    "university_name": "Gaziosmanpaşa University",
+    "campus_name": "Koyulhisar Kampüsü",
+    "city": "Tokat",
+    "district": "Koyulhisar",
+    "address": "Koyulhisar, Tokat"
+  },
+    {
+    "university_name": "Gebze Institute of Technology",
+    "campus_name": "Çayırova Kampüsü (Ana Kampüs)",
+    "city": "Kocaeli",
+    "district": "Çayırova",
+    "address": "Cumhuriyet Mahallesi, 41400 Çayırova/Kocaeli, Türkiye"
+  },
+  {
+    "university_name": "Gebze Institute of Technology",
+    "campus_name": "Muallimköy Teknoloji Geliştirme Bölgesi",
+    "city": "Kocaeli",
+    "district": "Gebze",
+    "address": "Muallimköy, 41400 Gebze/Kocaeli, Türkiye"
+  },
+    {
+    "university_name": "Gebze Technical University",
+    "campus_name": "Çayırova Kampüsü (Ana Kampüs)",
+    "city": "Kocaeli",
+    "district": "Çayırova",
+    "address": "Cumhuriyet Mahallesi, 2254. Sokak No:2, 41400 Çayırova/Kocaeli"
+  },
+  {
+    "university_name": "Gebze Technical University",
+    "campus_name": "Muallimköy Teknoloji Geliştirme Bölgesi",
+    "city": "Kocaeli",
+    "district": "Gebze",
+    "address": "Muallimköy, 41400 Gebze/Kocaeli"
+  },
+    {
+    "university_name": "Gedik University",
+    "campus_name": "Kartal Kampüsü (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Kartal",
+    "address": "Cumhuriyet Mahallesi, İlkbahar Sokak No: 1-3-5, Yakacık, 34876 Kartal/İstanbul"
+  },
+  {
+    "university_name": "Gedik University",
+    "campus_name": "Halil Kaya Gedik Kampüsü",
+    "city": "İstanbul",
+    "district": "Pendik",
+    "address": "Ankara Caddesi No: 280, 34906 Pendik/İstanbul"
+  },
+  {
+    "university_name": "Gedik University",
+    "campus_name": "Gedik Meslek Yüksekokulu",
+    "city": "İstanbul",
+    "district": "Pendik",
+    "address": "Sülüntepe Mahallesi, Yunus Emre Caddesi No: 1/1, Şeyhli, 34913 Pendik/İstanbul"
+  },
+  {
+    "university_name": "Gedik University",
+    "campus_name": "Nişantaşı Kampüsü",
+    "city": "İstanbul",
+    "district": "Şişli",
+    "address": "Teşvikiye Mahallesi, Hüsrev Gerede Caddesi No: 110, 34365 Şişli/İstanbul"
+  },
+  {
+    "university_name": "Gedik University",
+    "campus_name": "Çamlık Kampüsü",
+    "city": "İstanbul",
+    "district": "Pendik",
+    "address": "Çamlık Mahallesi, Erguvan Sokak No: 7, 34912 Pendik/İstanbul"
+  },
+  {
+    "university_name": "Gedik University",
+    "campus_name": "Aydınlı Kampüsü",
+    "city": "İstanbul",
+    "district": "Tuzla",
+    "address": "Aydınlı Mahallesi, Karaca Sokak No: 4A, 34953 Tuzla/İstanbul"
+  },
+    {
+    "university_name": "Gulhane Military Medical Academy",
+    "campus_name": "Gülhane Külliyesi (Ana Kampüs)",
+    "city": "Ankara",
+    "district": "Etlik, Keçiören",
+    "address": "Emrah Mahallesi, General Dr. Tevfik Sağlam Caddesi No:1, Etlik/Keçiören, Ankara"
+  },
+  {
+    "university_name": "Gulhane Military Medical Academy",
+    "campus_name": "Haydarpaşa Kampüsü",
+    "city": "İstanbul",
+    "district": "Selimiye, Üsküdar",
+    "address": "Selimiye Mahallesi, Tıbbiye Caddesi No:38, Üsküdar, İstanbul"
+  },
+  {
+    "university_name": "Gulhane Military Medical Academy",
+    "campus_name": "Cebeci Kampüsü",
+    "city": "Ankara",
+    "district": "Cebeci, Çankaya",
+    "address": "Cebeci Mahallesi, Çankaya, Ankara"
+  },
+  {
+    "university_name": "Gulhane Military Medical Academy",
+    "campus_name": "Bahçelievler Kampüsü",
+    "city": "Ankara",
+    "district": "Bahçelievler, Çankaya",
+    "address": "Bahçelievler Mahallesi, Çankaya, Ankara"
+  },
+  {
+    "university_name": "Gulhane Military Medical Academy",
+    "campus_name": "GATA Kampüsü",
+    "city": "Ankara",
+    "district": "GATA Mahallesi, Çankaya",
+    "address": "GATA Mahallesi, Çankaya, Ankara"
+  },
+    {
+    "university_name": "Gumushane University",
+    "campus_name": "Gümüşhanevî Kampüsü (Ana Kampüs)",
+    "city": "Gümüşhane",
+    "district": "Bağlarbaşı",
+    "address": "Bağlarbaşı Mahallesi, 29100 Gümüşhane"
+  },
+    {
+    "university_name": "Hacettepe University",
+    "campus_name": "Sıhhiye Kampüsü (Ana Kampüs)",
+    "city": "Ankara",
+    "district": "Altındağ",
+    "address": "Hacettepe Mahallesi, Adnan Saygun Caddesi No:25-3, Yenişehir Metro İstasyonu, 06100 Altındağ/Ankara, Türkiye"
+  },
+  {
+    "university_name": "Hacettepe University",
+    "campus_name": "Beytepe Kampüsü",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "1596. Sokak No:51A, Üniversiteler Mahallesi, 06800 Çankaya/Ankara, Türkiye"
+  },
+  {
+    "university_name": "Hacettepe University",
+    "campus_name": "Beşevler Kampüsü",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "address": "Üniversiteler Mahallesi, 06800 Çankaya/Ankara, Türkiye"
+  },
+  {
+    "university_name": "Hacettepe University",
+    "campus_name": "Polatlı Kampüsü",
+    "city": "Ankara",
+    "district": "Polatlı",
+    "address": "Polatlı, 06900 Ankara, Türkiye"
+  },
+    {
+    "university_name": "Hakkari University",
+    "campus_name": "Zeynel Bey Yerleşkesi (Ana Kampüs)",
+    "city": "Hakkari",
+    "district": "Merkez",
+    "address": "Keklikpınar Mahallesi, Pınarlar Caddesi, 30000 Merkez/Hakkari, Türkiye"
+  },
+  {
+    "university_name": "Hakkari University",
+    "campus_name": "Merzan Yerleşkesi",
+    "city": "Hakkari",
+    "district": "Merkez",
+    "address": "Merzan Mahallesi, Küçük Sanayi Sitesi Arkası, 433. Sokak No:51, 30000 Merkez/Hakkari, Türkiye"
+  },
+  {
+    "university_name": "Hakkari University",
+    "campus_name": "Yüksekova Yerleşkesi",
+    "city": "Hakkari",
+    "district": "Yüksekova",
+    "address": "İpek Mahallesi, 102. Sokak, Karayolları Karşısı, Nişan AVM Üstü Kat:1-2, Yüksekova/Hakkari, Türkiye"
+  },
+  {
+    "university_name": "Hakkari University",
+    "campus_name": "Çölemerik Yerleşkesi",
+    "city": "Hakkari",
+    "district": "Çölemerik",
+    "address": "Çölemerik Mahallesi, 30000 Çölemerik/Hakkari, Türkiye"
+  },
+    {
+    "university_name": "Halic University",
+    "campus_name": "5. Levent Kampüsü (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Eyüpsultan",
+    "address": "5. Levent Mahallesi, 15 Temmuz Şehitler Caddesi No:14/12, 34060 Eyüpsultan/İstanbul"
+  },
+  {
+    "university_name": "Halic University",
+    "campus_name": "Sütlüce Kampüsü",
+    "city": "İstanbul",
+    "district": "Beyoğlu",
+    "address": "Sütlüce Mahallesi, İmrahor Caddesi No:11, 34445 Beyoğlu/İstanbul"
+  },
+  {
+    "university_name": "Halic University",
+    "campus_name": "Levent Kampüsü",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "address": "Levent Mahallesi, 34330 Beşiktaş/İstanbul"
+  },
+  {
+    "university_name": "Halic University",
+    "campus_name": "Şişhane Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Beyoğlu",
+    "address": "Şişhane Mahallesi, 34420 Beyoğlu/İstanbul"
+  },
+  {
+    "university_name": "Halic University",
+    "campus_name": "Mecidiyeköy Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Şişli",
+    "address": "Mecidiyeköy Mahallesi, 34387 Şişli/İstanbul"
+  },
+    {
+    "university_name": "Harran University",
+    "campus_name": "Osmanbey Kampüsü (Ana Kampüs)",
+    "city": "Şanlıurfa",
+    "district": "Haliliye",
+    "address": "Şanlıurfa-Mardin Karayolu Üzeri 18. Km, 63300 Haliliye/Şanlıurfa"
+  },
+  {
+    "university_name": "Harran University",
+    "campus_name": "Yenisehir Kampüsü",
+    "city": "Şanlıurfa",
+    "district": "Eyyübiye",
+    "address": "Yenisehir Mahallesi, 63200 Eyyübiye/Şanlıurfa"
+  },
+  {
+    "university_name": "Harran University",
+    "campus_name": "Eyyübiye Kampüsü",
+    "city": "Şanlıurfa",
+    "district": "Eyyübiye",
+    "address": "Eyyübiye Mahallesi, 63200 Eyyübiye/Şanlıurfa"
+  },
+    {
+    "university_name": "Hasan Kalyoncu University",
+    "campus_name": "Yeşilkent Kampüsü (Ana Kampüs)",
+    "city": "Gaziantep",
+    "district": "Şahinbey",
+    "address": "Havaalanı Yolu Üzeri 8. km, 27000 Şahinbey/Gaziantep, Türkiye"
+  },
+    {
+    "university_name": "Health Sciences University",
+    "campus_name": "Hamidiye Kampüsü (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Üsküdar",
+    "address": "Tıbbiye Caddesi No:38, Selimiye, Üsküdar/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Health Sciences University",
+    "campus_name": "Gülhane Kampüsü",
+    "city": "Ankara",
+    "district": "Keçiören",
+    "address": "Emrah Mahallesi, 06018 Etlik/Keçiören/Ankara, Türkiye"
+  },
+  {
+    "university_name": "Health Sciences University",
+    "campus_name": "Somali Kampüsü",
+    "city": "Mogadişu",
+    "district": "Hodan",
+    "address": "KM5, Digfer Caddesi, Recep Tayyip Erdoğan Araştırma ve Eğitim Hastanesi Kampüsü, Mogadişu/Somali"
+  },
+    {
+    "university_name": "Hitit University",
+    "campus_name": "Kuzey Kampüsü (Ana Kampüs)",
+    "city": "Çorum",
+    "district": "Merkez",
+    "address": "Çevre Yolu Bulvarı No:1, 19030 Merkez/Çorum, Türkiye"
+  },
+  {
+    "university_name": "Hitit University",
+    "campus_name": "İktisadi ve İdari Bilimler Fakültesi Kampüsü",
+    "city": "Çorum",
+    "district": "Akkent",
+    "address": "Akkent 3. Cadde No:3, 19030 Akkent/Çorum, Türkiye"
+  },
+  {
+    "university_name": "Hitit University",
+    "campus_name": "Meslek Yüksekokulları Kampüsü",
+    "city": "Çorum",
+    "district": "Merkez",
+    "address": "Gazi Caddesi No:99, 19169 Merkez/Çorum, Türkiye"
+  },
+  {
+    "university_name": "Hitit University",
+    "campus_name": "Alaca Avni Çelik Meslek Yüksekokulu",
+    "city": "Çorum",
+    "district": "Alaca",
+    "address": "Yıldızhan Mahallesi, Avni Çelik Caddesi, Alaca/Çorum, Türkiye"
+  },
+  {
+    "university_name": "Hitit University",
+    "campus_name": "Sungurlu Meslek Yüksekokulu",
+    "city": "Çorum",
+    "district": "Sungurlu",
+    "address": "Yenihayat Mahallesi, 12027. Sokak No:3, Sungurlu/Çorum, Türkiye"
+  },
+    {
+    "university_name": "Iğdır University",
+    "campus_name": "Şehit Bülent Yurtseven Kampüsü (Ana Kampüs)",
+    "city": "Iğdır",
+    "district": "Suveren",
+    "address": "Iğdır Doğubeyazıt Yolu No:156, 76000 Suveren/Iğdır, Türkiye"
+  },
+  {
+    "university_name": "Iğdır University",
+    "campus_name": "Karaağaç Kampüsü",
+    "city": "Iğdır",
+    "district": "Merkez",
+    "address": "Emek Mahallesi, Evren Paşa Caddesi No:57, 76000 Merkez/Iğdır, Türkiye"
+  },
+    {
+    "university_name": "Inönü University",
+    "campus_name": "Turgut Özal Kampüsü (Merkez Kampüs)",
+    "city": "Malatya",
+    "district": "Battalgazi",
+    "address": "Üniversite Mahallesi, Bilen Sokak No:9, 44280 Battalgazi/Malatya, Türkiye"
+  },
+  {
+    "university_name": "Inönü University",
+    "campus_name": "Malatya Meslek Yüksekokulu Kampüsü",
+    "city": "Malatya",
+    "district": "Merkez",
+    "address": "Evren Paşa Caddesi No:57, 44200 Merkez/Malatya, Türkiye"
+  },
+  {
+    "university_name": "Inönü University",
+    "campus_name": "Malatya OSB Meslek Yüksekokulu Kampüsü",
+    "city": "Malatya",
+    "district": "Yeşilyurt",
+    "address": "Organize Sanayi Bölgesi, 44000 Yeşilyurt/Malatya, Türkiye"
+  },
+    {
+    "university_name": "Isık University",
+    "campus_name": "Maslak Kampüsü",
+    "city": "İstanbul",
+    "district": "Sarıyer",
+    "address": "Büyükdere Caddesi, Pınar Mahallesi No:194-6, 34398 Maslak/İstanbul"
+  },
+  {
+    "university_name": "Isık University",
+    "campus_name": "Şile Kampüsü",
+    "city": "İstanbul",
+    "district": "Şile",
+    "address": "Meşrutiyet Mahallesi, Üniversite Sokak No:2, 34980 Şile/İstanbul"
+  },
+    {
+    "university_name": "Iskenderun Technical University",
+    "campus_name": "Merkez Kampüs (Rektörlük ve Ana Kampüs)",
+    "city": "İskenderun",
+    "district": "Hatay",
+    "address": "İskenderun Teknik Üniversitesi (İSTE) Rektörlüğü Merkez Kampüs, 31200, İskenderun, Hatay, Türkiye"
+  },
+  {
+    "university_name": "Iskenderun Technical University",
+    "campus_name": "Mustafa Yazıcı Devlet Konservatuvarı",
+    "city": "İskenderun",
+    "district": "Hatay",
+    "address": "Yaşardoğu Mahallesi, Meydan Cad. No:53, 31200, İskenderun, Hatay, Türkiye"
+  },
+  {
+    "university_name": "Iskenderun Technical University",
+    "campus_name": "Dörtyol Kampüsü",
+    "city": "Dörtyol",
+    "district": "Hatay",
+    "address": "Kuzuculu Mahallesi, Erzin Yolu Üzeri, Dörtyol, Hatay, Türkiye"
+  },
+  {
+    "university_name": "Iskenderun Technical University",
+    "campus_name": "Erzin OSB Kampüsü",
+    "city": "Erzin",
+    "district": "Hatay",
+    "address": "Organize Sanayi Bölgesi, Erzin, Hatay, Türkiye"
+  },
+  {
+    "university_name": "Iskenderun Technical University",
+    "campus_name": "İskenderun OSB Kaynakçılık MYO Kampüsü",
+    "city": "İskenderun",
+    "district": "Hatay",
+    "address": "Sarıseki Mahallesi, Vali Utku Acun Bulvarı No:1, İskenderun, Hatay, Türkiye"
+  },
+    {
+    "university_name": "Istanbul 29 Mayıs University",
+    "campus_name": "Elmalıkent Kampüsü (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Ümraniye",
+    "address": "Elmalıkent Mahallesi, Elmalıkent Caddesi No:4, 34764 Ümraniye/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul 29 Mayıs University",
+    "campus_name": "Yamanevler Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Ümraniye",
+    "address": "Yamanevler Mahallesi, 34764 Ümraniye/İstanbul, Türkiye"
+  },
+    {
+    "university_name": "Istanbul Arel University",
+    "campus_name": "Kemal Gözükara Kampüsü",
+    "city": "İstanbul",
+    "district": "Büyükçekmece",
+    "address": "Türkoba Mahallesi, Erguvan Sokak No:26 / K, 34537 Tepekent – Büyükçekmece, İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Arel University",
+    "campus_name": "Sefaköy Kampüsü",
+    "city": "İstanbul",
+    "district": "Küçükçekmece",
+    "address": "Kemalpaşa Mahallesi, Halkalı Caddesi No:101, 34295 Sefaköy – Küçükçekmece, İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Arel University",
+    "campus_name": "Cevizlibağ Sağlık Kampüsü",
+    "city": "İstanbul",
+    "district": "Zeytinburnu",
+    "address": "Merkezefendi Mahallesi, Eski Londra Asfaltı Caddesi No:1/3, 34010 Zeytinburnu, İstanbul, Türkiye"
+  },
+    {
+    "university_name": "Istanbul Aydın University",
+    "campus_name": "Florya Halit Aydın Kampüsü",
+    "city": "İstanbul",
+    "district": "Küçükçekmece",
+    "address": "Beşyol Mahallesi, İnönü Caddesi No:38, 34295 Sefaköy – Küçükçekmece, İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Aydın University",
+    "campus_name": "Kadıköy Kampüsü",
+    "city": "İstanbul",
+    "district": "Kadıköy",
+    "address": "Kuşdili Caddesi, Misk-i Amber Sokak No:14, Kadıköy, İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Aydın University",
+    "campus_name": "Bakırköy Kampüsü",
+    "city": "İstanbul",
+    "district": "Bakırköy",
+    "address": "Zeytinlik Mahallesi, Halkçı Sokak No:17, Bakırköy, İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Aydın University",
+    "campus_name": "Büyükçekmece Kampüsü",
+    "city": "İstanbul",
+    "district": "Büyükçekmece",
+    "address": "Fatih Mahallesi, Rıza Küçükoğlupaşa Caddesi No:34, 34522 Büyükçekmece, İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Aydın University",
+    "campus_name": "Bahçelievler Kampüsü",
+    "city": "İstanbul",
+    "district": "Bahçelievler",
+    "address": "Adnan Kahveci Bulvarı No:78, Bahçelievler, İstanbul, Türkiye"
+  },
+    {
+    "university_name": "Istanbul Bilgi University",
+    "campus_name": "santral istanbul Kampüsü",
+    "city": "İstanbul",
+    "district": "Eyüpsultan",
+    "address": "Kazım Karabekir Caddesi No:2/13, 34060 Eyüpsultan/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Bilgi University",
+    "campus_name": "Dolapdere Kampüsü",
+    "city": "İstanbul",
+    "district": "Beyoğlu",
+    "address": "Hacıahmet Mahallesi, Pir Hüsamettin Sokak No:20, 34440 Beyoğlu/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Bilgi University",
+    "campus_name": "Kuştepe Kampüsü",
+    "city": "İstanbul",
+    "district": "Şişli",
+    "address": "İnönü Caddesi No:72, 34387 Kuştepe/Şişli/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Bilgi University",
+    "campus_name": "Kozyatağı Kampüsü",
+    "city": "İstanbul",
+    "district": "Kadıköy",
+    "address": "Kayışdağı Caddesi, Kozyatağı Mahallesi, 34742 Kadıköy/İstanbul, Türkiye"
+  },
+    {
+    "university_name": "Istanbul Esenyurt University",
+    "campus_name": "Ana Kampüs",
+    "city": "İstanbul",
+    "district": "Esenyurt",
+    "address": "Zafer Mahallesi, Adile Naşit Bulvarı No:1, 34510 Esenyurt/İstanbul, Türkiye"
+  },
+    {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "A Blok",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Şehit Jandarma Komando Er Hakan Öner Sk. No:1, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "B-C Blok",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Şehit Jandarma Komando Er Hakan Öner Sk. No:1, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "D Blok",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Şehit Jandarma Komando Er Hakan Öner Sk. No:1, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "E Blok",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Şehit Jandarma Komando Er Hakan Öner Sk. No:1, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "G Blok",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Şehit Jandarma Komando Er Hakan Öner Sk. No:1, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "K Blok",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Şehit Jandarma Komando Er Hakan Öner Sk. No:1, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "BESYO (Spor Bilimleri Fakültesi)",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Şehit Jandarma Komando Er Hakan Öner Sk. No:1, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "İngilizce ve Rusça Hazırlık Okulu",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "E-5 Yanyol No:259, 34310 Avcılar/İstanbul"
+  },
+  {
+    "university_name": "Istanbul Gelisim University",
+    "campus_name": "İstanbul Gelişim Meslek Yüksekokulu",
+    "city": "İstanbul",
+    "district": "Avcılar",
+    "address": "Cihangir Mah. Petrol Ofisi Cd. No:7, 34310 Avcılar/İstanbul"
+  },
+    {
+    "university_name": "Istanbul Kemerburgaz University",
+    "campus_name": "Mahmutbey Teknoloji Kampüsü (Ana Kampüs)",
+    "city": "İstanbul",
+    "district": "Bağcılar",
+    "address": "Mahmutbey Mahallesi, Dilmenler Caddesi No:26, 34218 Bağcılar/İstanbul, Türkiye"
+  },
+    {
+    "university_name": "Istanbul Kultur University",
+    "campus_name": "Ataköy Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Bakırköy",
+    "address": "E5 Karayolu üzeri, 34158 Bakırköy/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Kultur University",
+    "campus_name": "İncirli Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Bakırköy",
+    "address": "Yolbaşı Sokak, 34147 Bakırköy/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Kultur University",
+    "campus_name": "Bahçelievler Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Bahçelievler",
+    "address": "E5 Karayolu üzeri, No:22, 34191 Bahçelievler/İstanbul, Türkiye"
+  },
+  {
+    "university_name": "Istanbul Kultur University",
+    "campus_name": "Küçükçekmece Yerleşkesi",
+    "city": "İstanbul",
+    "district": "Küçükçekmece",
+    "address": "Halkalı Merkez Mahallesi, Basın Ekspres Caddesi No:11, 34303 Küçükçekmece/İstanbul, Türkiye"
+  }
+]

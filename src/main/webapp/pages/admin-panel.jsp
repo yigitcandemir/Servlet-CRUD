@@ -10,7 +10,7 @@
 <body>
 <h2>Hoşgeldiniz, <%=session.getAttribute("admin")%></h2>
 
-<a href="../UniversityServlet">Üniversiteleri Listele (API)</a> |
+<a href="../UniversityServlet">Üniversiteleri Listele</a> |
 <a href="logout.jsp">Çıkış Yap</a>
 </body>
 </html>

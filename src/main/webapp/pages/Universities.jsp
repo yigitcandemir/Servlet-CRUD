@@ -32,9 +32,8 @@
     <input type="text" name="search" placeholder="Üniversite adı ara">
     <button type="submit">Ara</button>
 </form>
-
 <table border="1">
-<tr><th>Ad</th><th>Website</th><% if (session.getAttribute("admin") != null) { %> <th>İşlemler</th><% } %></tr>
+<tr><th>Ad</th><th>Website</th><% if (session.getAttribute("admin") != null) { %> <th>İşlemler</th><% } %> <th>Kampüsler</th><% if (session.getAttribute("admin") != null) { %> <th>Yönet</th><% } %></tr>
 
 <%-- Veritabanı Üniversiteleri --%>
 <%
@@ -54,6 +53,19 @@
     <button type="submit">Güncelle</button>
 </form>
     <button onclick="deleteUniversity('<%=u.getId()%>')" style="margin-left:10px;">Sil</button>
+</td>
+<% } %>
+<td>
+    <form action="CampusServlet" method="get" style="display:inline;">
+    <input type="hidden" name="universityId" value="<%=u.getId()%>">
+    <button type="submit">Kampüsleri Göster</button>
+</form>
+</td>
+<% if (session.getAttribute("admin") != null) { %>
+<td>
+    <a href="AdminUniversityDetails?id=<%=u.getId()%>">
+        <button>Yönet</button>
+    </a>
 </td>
 <% } %>
 </tr>
