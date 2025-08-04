@@ -20,12 +20,13 @@ public class CreateUniversityServlet extends HttpServlet{
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         HttpSession session = request.getSession(false);
+        String operator = (session != null) ? (String) session.getAttribute("username") : "anonymous";
         String name = request.getParameter("name");
         String website = request.getParameter("website");
 
         try {
             University uni = new University(name, website);
-            universityDAO.insert(uni);
+            universityDAO.insert(uni, operator);
             response.sendRedirect("UniversityServlet");
         } 
         catch (SQLException e) {

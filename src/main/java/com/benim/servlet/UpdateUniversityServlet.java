@@ -19,14 +19,14 @@ public class UpdateUniversityServlet extends HttpServlet{
     
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
-
+        String operator = (session != null) ? (String) session.getAttribute("username") : "anonymous";
         int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
         String website = request.getParameter("website");
 
         try {
             University uni = new University(id,name, website);
-            universityDAO.update(uni);  
+            universityDAO.update(uni,operator);  
             response.sendRedirect("UniversityServlet"); 
         } catch (SQLException e) {
             e.printStackTrace();

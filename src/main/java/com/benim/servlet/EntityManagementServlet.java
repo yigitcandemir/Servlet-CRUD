@@ -48,22 +48,25 @@ public class EntityManagementServlet extends HttpServlet{
     
 
     private void handleCampus(HttpServletRequest request, HttpServletResponse response, String action) throws Exception{
+        String operator = (String) request.getSession().getAttribute("admin");
         int universityId = Integer.parseInt(request.getParameter("universityId"));
         if(action.equals("add")){
             Campus c = new Campus(0, universityId, request.getParameter("name"),request.getParameter("city"),request.getParameter("district"),request.getParameter("address"));
-            campusDAO.insert(c);
+            campusDAO.insert(c,operator);
         }
         else if (action.equals("update")){
             Campus c = new Campus(Integer.parseInt(request.getParameter("id")), universityId,request.getParameter("name"),request.getParameter("city"),request.getParameter("district"),request.getParameter("address"));
-            campusDAO.update(c);
+            campusDAO.update(c,operator);
         }
         else if (action.equals("delete")){
-            campusDAO.delete(Integer.parseInt(request.getParameter("id")));
+            int campusId = Integer.parseInt(request.getParameter("id"));
+            campusDAO.softDelete(campusId, operator);
         }
         response.sendRedirect("AdminUniversityDetails?id=" + universityId);
     }
 
     private void handleFaculty(HttpServletRequest request, HttpServletResponse response, String action) throws Exception{
+        String operator = (String) request.getSession().getAttribute("admin");
         int campusId = Integer.parseInt(request.getParameter("campusId"));
         int universityId = Integer.parseInt(request.getParameter("universityId"));
         String name = request.getParameter("name");
@@ -72,32 +75,35 @@ public class EntityManagementServlet extends HttpServlet{
 
         if(action.equals("add")){
             Faculty f = new Faculty(0,name,campusId,telephone,dean);
-            facultyDAO.insert(f);
+            facultyDAO.insert(f,operator);
         }
         else if(action.equals("update")){
             Faculty f = new Faculty(Integer.parseInt(request.getParameter("id")), name, campusId, telephone, dean);
-            facultyDAO.update(f);
+            facultyDAO.update(f,operator);
         }
         else if (action.equals("delete")){
-            facultyDAO.delete(Integer.parseInt(request.getParameter("id")));
+            int id = Integer.parseInt(request.getParameter("id"));
+            facultyDAO.softDelete(id,operator);
         }
         response.sendRedirect("AdminUniversityDetails?id=" + universityId);
     }
 
     private void handleDepartment(HttpServletRequest request, HttpServletResponse response, String action) throws Exception{
+        String operator = (String) request.getSession().getAttribute("admin");
         int facultyId = Integer.parseInt(request.getParameter("facultyId"));
         int universityId = Integer.parseInt(request.getParameter("universityId"));
 
         if(action.equals("add")){
             Department d = new Department(0,facultyId,request.getParameter("name"));
-            departmentDAO.insert(d);
+            departmentDAO.insert(d,operator);
         }
         else if (action.equals("update")){
             Department d = new Department(Integer.parseInt(request.getParameter("id")), facultyId, request.getParameter("name"));
-            departmentDAO.update(d);
+            departmentDAO.update(d, operator);
         }
         else if (action.equals("delete")){
-            departmentDAO.delete(Integer.parseInt(request.getParameter("id")));
+            int id = Integer.parseInt(request.getParameter("id"));
+            departmentDAO.softDelete(id, operator);
         }
         response.sendRedirect("AdminUniversityDetails?id=" + universityId);
     }

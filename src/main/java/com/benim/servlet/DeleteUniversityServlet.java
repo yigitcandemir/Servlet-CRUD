@@ -19,7 +19,7 @@ public class DeleteUniversityServlet extends HttpServlet{
     
     protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         HttpSession session = request.getSession(false);
-
+        String operator = (session != null) ? (String) session.getAttribute("username") : "anonymous";
         String idString = request.getParameter("id");
 
 
@@ -29,7 +29,7 @@ public class DeleteUniversityServlet extends HttpServlet{
         }
         try{
             int id = Integer.parseInt(idString);
-            universityDAO.delete(id);
+            universityDAO.softDelete(id,operator);
             response.setStatus(HttpServletResponse.SC_NO_CONTENT);
         }
         catch(NumberFormatException e){

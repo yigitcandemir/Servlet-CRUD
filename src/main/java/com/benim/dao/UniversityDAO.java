@@ -13,11 +13,11 @@ import com.benim.utils.DBUtil;
 public class UniversityDAO {
 
 
-    private static final String SELECT_ALL = "SELECT id, name, website from universiteler";
-    private static final String INSERT_SQL = "INSERT INTO universiteler(name, website) VALUES (?, ?)";
-    private static final String UPDATE_SQL = "UPDATE universiteler SET name = ?, website = ? WHERE id = ?";
+    private static final String SELECT_ALL = "SELECT id, name, website FROM universiteler WHERE is_deleted = 0";
+    private static final String INSERT_SQL = "INSERT INTO universiteler(name, website, created_by) VALUES (?, ?, ?)";
+    private static final String UPDATE_SQL = "UPDATE universiteler SET name = ?, website = ? updated_by = ?, updated_at = NOW() WHERE id = ? AND is_deleted = 0";
     private static final String SEARCH_BY_NAME = "SELECT id, name, website FROM universiteler WHERE name LIKE ?";
-    private static final String DELETE_SQL = "DELETE FROM universiteler WHERE id = ?";
+    private static final String DELETE_SQL = "UPDATE universiteler SET is_deleted = 1, deleted_by = ?, deleted_at = NOW() WHERE id = ?";
 
 
     public List<University> selectAll(){
@@ -54,7 +54,7 @@ public class UniversityDAO {
 
     public University selectById(int id){
         University university = null;
-        String sql = "SELECT * FROM universiteler WHERE id = ?";
+        String sql = "SELECT * FROM universiteler WHERE id = ? AND is_deleted = 0";
 
         try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(sql)){
             ps.setInt(1, id);
@@ -70,10 +70,11 @@ public class UniversityDAO {
         return university;
     }
 
-    public void insert(University uni) throws SQLException{
+    public void insert(University uni, String operator) throws SQLException{
         try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(INSERT_SQL)){
             ps.setString(1, uni.getName());
             ps.setString(2, uni.getWebsite());
+            ps.setString(3, operator);
             ps.executeUpdate();
         }
         catch(SQLException e){
@@ -81,18 +82,20 @@ public class UniversityDAO {
         }
     }
 
-    public void update(University uni) throws SQLException {
+    public void update(University uni, String operator) throws SQLException {
         try ( Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(UPDATE_SQL)){
             ps.setString(1, uni.getName());
             ps.setString(2, uni.getWebsite());
-            ps.setInt(3, uni.getId());
+            ps.setString(3, operator);
+            ps.setInt(4, uni.getId());
             ps.executeUpdate();
         }
     }
 
-    public void delete(int id) throws SQLException{
+    public void softDelete(int id, String operator) throws SQLException{
         try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(DELETE_SQL)){
-            ps.setInt(1,id);
+            ps.setString(1,operator);
+            ps.setInt(2,id);
             ps.executeUpdate();
         }
     }

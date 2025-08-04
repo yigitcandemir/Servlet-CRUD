@@ -14,42 +14,45 @@ public class CampusDAO{
 
     private static final String INSERT_SQL = "INSERT INTO campus(university_id, name,city, district, address) values (?,?,?,?,?) ";
     private static final String UPDATE_SQL = "UPDATE campus SET name = ?, city = ?, district = ?, address = ? WHERE id = ?";
-    private static final String DELETE_SQL = "DELETE FROM campus WHERE id = ?";
+    private static final String SOFT_DELETE_SQL = "UPDATE campus SET is_deleted = 1, deleted_by = ?, deleted_at = NOW() WHERE id = ?";
+    private static final String SELECT_BY_UNI_SQL = "SELECT * FROM campus WHERE university_id = ? AND is_deleted = 0";
 
-    public void insert(Campus c) throws SQLException{
+    public void insert(Campus c, String operator) throws SQLException{
         try (Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(INSERT_SQL)){
             ps.setInt(1, c.getUniversityId());
             ps.setString(2, c.getName());
             ps.setString(3, c.getCity());
             ps.setString(4, c.getDistrict());
             ps.setString(5, c.getAddress());
+            ps.setString(6, operator);
             ps.executeUpdate();
         }
     }
 
-    public void update(Campus c) throws SQLException{
+    public void update(Campus c, String operator) throws SQLException{
         try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(UPDATE_SQL)){
             ps.setString(1, c.getName());
             ps.setString(2, c.getCity());
             ps.setString(3, c.getDistrict());
             ps.setString(4, c.getAddress());
-            ps.setInt(5, c.getId());
+            ps.setString(5, operator);
+            ps.setInt(6, c.getId());
             ps.executeUpdate();
         }
     }
 
-    public void delete(int id) throws SQLException{
-        try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(UPDATE_SQL)){
-            ps.setInt(1, id);
+    public void softDelete(int campusId, String operator) throws SQLException{
+        try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(SOFT_DELETE_SQL)){
+            ps.setString(1, operator);
+            ps.setInt(2, campusId);
             ps.executeUpdate();
         }
     }
 
     public List<Campus> getCampusesByUniversityId(int universityId) throws SQLException {
         List<Campus> list = new ArrayList<>();
-        String sql = "SELECT * FROM campus WHERE university_id = ?";
 
-        try (Connection conn = DBUtil.getConnection("universities"); PreparedStatement stmt = conn.prepareStatement(sql)) {
+        try (Connection conn = DBUtil.getConnection("universities"); PreparedStatement stmt = conn.prepareStatement(SELECT_BY_UNI_SQL)) {
 
             stmt.setInt(1, universityId);
             ResultSet rs = stmt.executeQuery();
