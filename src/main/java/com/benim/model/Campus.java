@@ -13,6 +13,15 @@ public class Campus{
 
     public Campus(){}
 
+    public Campus(int universityId, String name, String city, String district, String address){
+        this.id = id;
+        this.universityId = universityId;
+        this.name =name;
+        this.city = city;
+        this.district = district;
+        this.address = address;
+    }
+
     public Campus(int id, int universityId, String name, String city, String district, String address){
         this.id = id;
         this.universityId = universityId;

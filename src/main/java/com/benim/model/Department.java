@@ -7,6 +7,12 @@ public class Department{
 
     public Department(){}
 
+    public Department(int facultyId,String name){
+        this.id = id;
+        this.name = name;
+        this.facultyId = facultyId;
+    }
+
     public Department(int id,int facultyId,String name){
         this.id = id;
         this.name = name;

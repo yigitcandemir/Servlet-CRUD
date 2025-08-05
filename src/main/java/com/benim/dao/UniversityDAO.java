@@ -80,9 +80,12 @@ public class UniversityDAO {
         catch(SQLException e){
             e.printStackTrace();
         }
+        logHistory(uni, "INSERT", operator);
     }
 
     public void update(University uni, String operator) throws SQLException {
+        University old = selectById(uni.getId());
+        logHistory(old, "UPDATE", operator);
         try ( Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(UPDATE_SQL)){
             ps.setString(1, uni.getName());
             ps.setString(2, uni.getWebsite());
@@ -93,10 +96,27 @@ public class UniversityDAO {
     }
 
     public void softDelete(int id, String operator) throws SQLException{
+        University old = selectById(id);
+        logHistory(old, "DELETE", operator);
         try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(DELETE_SQL)){
             ps.setString(1,operator);
             ps.setInt(2,id);
             ps.executeUpdate();
+        }
+    }
+
+    public void logHistory(University u, String actionType, String operator){
+        String sql = "INSERT INTO universiteler_history (university_id, name, website, action_type, action_by, action_at) VALUES (?, ?, ?, ?, ?)";
+        try (Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(sql)){
+            ps.setInt(1, u.getId());
+            ps.setString(2, u.getName());
+            ps.setString(3, u.getWebsite());
+            ps.setString(4, actionType);
+            ps.setString(5, operator);
+            ps.executeUpdate();
+        }
+        catch (SQLException e){
+            e.printStackTrace();
         }
     }
 }

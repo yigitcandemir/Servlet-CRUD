@@ -51,7 +51,7 @@ public class EntityManagementServlet extends HttpServlet{
         String operator = (String) request.getSession().getAttribute("admin");
         int universityId = Integer.parseInt(request.getParameter("universityId"));
         if(action.equals("add")){
-            Campus c = new Campus(0, universityId, request.getParameter("name"),request.getParameter("city"),request.getParameter("district"),request.getParameter("address"));
+            Campus c = new Campus(universityId, request.getParameter("name"),request.getParameter("city"),request.getParameter("district"),request.getParameter("address"));
             campusDAO.insert(c,operator);
         }
         else if (action.equals("update")){
@@ -74,7 +74,7 @@ public class EntityManagementServlet extends HttpServlet{
         String dean = request.getParameter("dean");
 
         if(action.equals("add")){
-            Faculty f = new Faculty(0,name,campusId,telephone,dean);
+            Faculty f = new Faculty(name,campusId,telephone,dean);
             facultyDAO.insert(f,operator);
         }
         else if(action.equals("update")){
@@ -94,7 +94,7 @@ public class EntityManagementServlet extends HttpServlet{
         int universityId = Integer.parseInt(request.getParameter("universityId"));
 
         if(action.equals("add")){
-            Department d = new Department(0,facultyId,request.getParameter("name"));
+            Department d = new Department(facultyId,request.getParameter("name"));
             departmentDAO.insert(d,operator);
         }
         else if (action.equals("update")){

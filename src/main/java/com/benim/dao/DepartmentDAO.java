@@ -24,10 +24,19 @@ public class DepartmentDAO{
             ps.setString(2, d.getName());
             ps.setString(3, operator);
             ps.executeUpdate();
+
+            ResultSet rs = ps.getGeneratedKeys();
+            if(rs.next()){
+                d.setId(rs.getInt(1));
+            }
         }
+        logHistory(d, "INSERT", operator);
     }
 
     public void update(Department d, String operator) throws SQLException{
+        Department old = selectById(d.getId());
+        logHistory(old, "UPDATE", operator);
+
         try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(UPDATE_SQL)){
             ps.setString(1, d.getName());
             ps.setString(2, operator);
@@ -37,6 +46,9 @@ public class DepartmentDAO{
     }
 
     public void softDelete(int id, String operator) throws SQLException{
+        Department old = selectById(id);
+        logHistory(old, "DELETE", operator);
+
         try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(SOFT_DELETE_SQL)){
             ps.setString(1, operator);
             ps.setInt(2, id);
@@ -60,5 +72,43 @@ public class DepartmentDAO{
             }
         } 
         return list;
+    }
+
+    public void logHistory(Department d, String actionType, String operator){
+        String sql = "INSERT INTO department_history (department_id, faculty_id, name, operation_type, operated_by) VALUES (?,?,?,?,?)";
+        try (Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(sql)){
+            ps.setInt(1, d.getId());
+            ps.setInt(2, d.getFacultyId());
+            ps.setString(3, d.getName());
+            ps.setString(4, actionType);
+            ps.setString(5, operator);
+            ps.executeUpdate();
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
+
+    public Department selectById(int id){
+        String sql = "SELECT * FROM department WHERE id = ?";
+        Department department = null;
+
+        try(Connection conn = DBUtil.getConnection("universities"); PreparedStatement ps = conn.prepareStatement(sql)){
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
+
+            if(rs.next()){
+                department = new Department();
+                department.setId(rs.getInt("id"));
+                department.setName(rs.getString("name"));
+                department.setFacultyId(rs.getInt("faculty_id"));
+            }
+
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+        }
+        
+        return department;
     }
 }

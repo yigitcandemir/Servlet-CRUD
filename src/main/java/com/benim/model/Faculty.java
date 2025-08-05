@@ -12,6 +12,13 @@ public class Faculty{
 
     public Faculty(){}
 
+    public Faculty(String name, int campusId, String telephone, String dean){
+        this.name = name;
+        this.campusId = campusId;
+        this.telephone = telephone;
+        this.dean = dean;
+    }
+
     public Faculty(int id, String name, int campusId, String telephone, String dean){
         this.id = id;
         this.name = name;
